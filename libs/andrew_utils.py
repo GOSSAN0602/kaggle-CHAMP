@@ -284,8 +284,8 @@ def train_model_regression(tag, mol_type, X, X_test, y, params, folds, model_typ
 
             plt.figure(figsize=(16, 12));
             sns.barplot(x="importance", y="feature", data=best_features.sort_values(by="importance", ascending=False));
-            plt.title(str(mol_type)+' / LGB Features (avg over folds)')
-            plt.savefig('log/'+str(tag)+'/'+str(mol_type)+'.png')
+            plt.title(str(mol_type)+' score:'+str(np.mean(scores))+',var:'+str(np.std(scores))+' / LGB Features (avg over folds)')
+            plt.savefig('log/'+str(tag)+'/'+str(mol_type)+'_feaature_imp_.png')
             result_dict['feature_importance'] = feature_importance
 
     return result_dict
