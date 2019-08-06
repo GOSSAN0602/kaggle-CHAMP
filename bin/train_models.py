@@ -64,8 +64,9 @@ for f in label_columns:
         lbl.fit(list(train[f].values) + list(test[f].values))
         train[f] = lbl.transform(list(train[f].values))
         test[f] = lbl.transform(list(test[f].values))
-
-n_fold = 3
+train = train.drop(['id','molecule_name'],axis=1)
+test = test.drop(['id','molecule_name'],axis=1)
+n_fold = 2
 folds = KFold(n_splits=n_fold, shuffle=True, random_state=11)
 
 param_dict = get_params_dict()
@@ -82,6 +83,7 @@ f.close()
 
 X_short = pd.DataFrame({'ind': list(train.index), 'type': train['type'].values, 'oof': [0] * len(train), 'target': y.values})
 X_short_test = pd.DataFrame({'ind': list(test.index), 'type': test['type'].values, 'prediction': [0] * len(test)})
+
 for t in train['type'].unique():
     type_ = lbl.inverse_transform([t])[0]
     print('Training of type '+str(type_))
@@ -94,6 +96,7 @@ for t in train['type'].unique():
                                                       verbose=500, early_stopping_rounds=200, n_estimators=n_estimators)
     X_short.loc[X_short['type'] == t, 'oof'] = result_dict_lgb['oof']
     X_short_test.loc[X_short_test['type'] == t, 'prediction'] = result_dict_lgb['prediction']
+    result_dict_lgb['feature_importance'].to_csv('log/'+args.tag+'/'+str(type_)+'feature_importance.csv')
 sub['scalar_coupling_constant'] = X_short_test['prediction']
 sub.to_csv('log/' + args.tag +'/submission.csv', index=False)
 

@@ -1,0 +1,397 @@
+Script started on Fri 02 Aug 2019 08:06:42 AM UTC
+shuki_goto@tabular2:~/CHAMPS/CHAMPS$ python bin/train_models.py 5th_try
+Load Train data
+Load Test data
+Encoding label features...
+Training of type 1JHC
+Fold 1 started at Fri Aug  2 08:13:41 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 1.68589	valid_1's l1: 1.80894
+[1000]	training's l1: 0.816244	valid_1's l1: 1.00418
+[1500]	training's l1: 0.548287	valid_1's l1: 0.874113
+[2000]	training's l1: 0.392036	valid_1's l1: 0.820014
+[2500]	training's l1: 0.286562	valid_1's l1: 0.789641
+[3000]	training's l1: 0.212913	valid_1's l1: 0.772694
+[3500]	training's l1: 0.160182	valid_1's l1: 0.762151
+[4000]	training's l1: 0.12041	valid_1's l1: 0.755931
+[4500]	training's l1: 0.0922244	valid_1's l1: 0.751622
+[5000]	training's l1: 0.070894	valid_1's l1: 0.748953
+[5500]	training's l1: 0.0546961	valid_1's l1: 0.747217
+[6000]	training's l1: 0.042541	valid_1's l1: 0.746014
+[6500]	training's l1: 0.0333624	valid_1's l1: 0.745216
+[7000]	training's l1: 0.0265218	valid_1's l1: 0.744674
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.0265218	valid_1's l1: 0.744674
+Fold 2 started at Fri Aug  2 08:43:35 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 1.6996	valid_1's l1: 1.80182
+[1000]	training's l1: 0.809905	valid_1's l1: 1.00799
+[1500]	training's l1: 0.54744	valid_1's l1: 0.881469
+[2000]	training's l1: 0.391951	valid_1's l1: 0.824618
+[2500]	training's l1: 0.28702	valid_1's l1: 0.794894
+[3000]	training's l1: 0.213412	valid_1's l1: 0.777829
+[3500]	training's l1: 0.159892	valid_1's l1: 0.767794
+[4000]	training's l1: 0.120927	valid_1's l1: 0.761419
+[4500]	training's l1: 0.0923939	valid_1's l1: 0.757515
+[5000]	training's l1: 0.071103	valid_1's l1: 0.754886
+[5500]	training's l1: 0.0550534	valid_1's l1: 0.75316
+[6000]	training's l1: 0.042901	valid_1's l1: 0.75192
+[6500]	training's l1: 0.0336979	valid_1's l1: 0.751181
+[7000]	training's l1: 0.0267834	valid_1's l1: 0.750629
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.0267834	valid_1's l1: 0.750629
+Fold 3 started at Fri Aug  2 09:12:43 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 1.68979	valid_1's l1: 1.81795
+[1000]	training's l1: 0.835369	valid_1's l1: 1.02146
+[1500]	training's l1: 0.559051	valid_1's l1: 0.885779
+[2000]	training's l1: 0.3959	valid_1's l1: 0.826869
+[2500]	training's l1: 0.289053	valid_1's l1: 0.796068
+[3000]	training's l1: 0.214185	valid_1's l1: 0.778637
+[3500]	training's l1: 0.161374	valid_1's l1: 0.76801
+[4000]	training's l1: 0.122365	valid_1's l1: 0.761285
+[4500]	training's l1: 0.0934373	valid_1's l1: 0.757052
+[5000]	training's l1: 0.0719008	valid_1's l1: 0.754202
+[5500]	training's l1: 0.0559142	valid_1's l1: 0.75249
+[6000]	training's l1: 0.0437915	valid_1's l1: 0.751254
+[6500]	training's l1: 0.0348327	valid_1's l1: 0.750448
+[7000]	training's l1: 0.0278101	valid_1's l1: 0.749917
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.0278101	valid_1's l1: 0.749917
+CV mean score: -0.2898, std: 0.0036.
+Training of type 2JHH
+Fold 1 started at Fri Aug  2 09:37:41 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.165071	valid_1's l1: 0.206848
+[1000]	training's l1: 0.112464	valid_1's l1: 0.181902
+[1500]	training's l1: 0.0844139	valid_1's l1: 0.173175
+[2000]	training's l1: 0.0655529	valid_1's l1: 0.168761
+[2500]	training's l1: 0.0522934	valid_1's l1: 0.166191
+Did not meet early stopping. Best iteration is:
+[2500]	training's l1: 0.0522934	valid_1's l1: 0.166191
+Fold 2 started at Fri Aug  2 09:40:36 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.163466	valid_1's l1: 0.206798
+[1000]	training's l1: 0.111439	valid_1's l1: 0.181361
+[1500]	training's l1: 0.0836938	valid_1's l1: 0.172732
+[2000]	training's l1: 0.0650734	valid_1's l1: 0.168546
+[2500]	training's l1: 0.0517204	valid_1's l1: 0.166121
+Did not meet early stopping. Best iteration is:
+[2500]	training's l1: 0.0517204	valid_1's l1: 0.166121
+Fold 3 started at Fri Aug  2 09:43:22 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.164471	valid_1's l1: 0.206217
+[1000]	training's l1: 0.112505	valid_1's l1: 0.181261
+[1500]	training's l1: 0.0838866	valid_1's l1: 0.172001
+[2000]	training's l1: 0.0651405	valid_1's l1: 0.167501
+[2500]	training's l1: 0.0519654	valid_1's l1: 0.165021
+Did not meet early stopping. Best iteration is:
+[2500]	training's l1: 0.0519654	valid_1's l1: 0.165021
+CV mean score: -1.7971, std: 0.0032.
+Training of type 1JHN
+Fold 1 started at Fri Aug  2 09:46:12 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.194437	valid_1's l1: 0.45325
+[1000]	training's l1: 0.0697045	valid_1's l1: 0.429253
+[1500]	training's l1: 0.0275501	valid_1's l1: 0.425271
+[2000]	training's l1: 0.014786	valid_1's l1: 0.424204
+[2500]	training's l1: 0.0104471	valid_1's l1: 0.423871
+Did not meet early stopping. Best iteration is:
+[2500]	training's l1: 0.0104471	valid_1's l1: 0.423871
+Fold 2 started at Fri Aug  2 09:46:58 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.198578	valid_1's l1: 0.445802
+[1000]	training's l1: 0.067886	valid_1's l1: 0.420577
+[1500]	training's l1: 0.0303659	valid_1's l1: 0.416238
+[2000]	training's l1: 0.0163942	valid_1's l1: 0.41503
+[2500]	training's l1: 0.0110304	valid_1's l1: 0.414554
+Did not meet early stopping. Best iteration is:
+[2500]	training's l1: 0.0110304	valid_1's l1: 0.414554
+Fold 3 started at Fri Aug  2 09:47:43 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.204147	valid_1's l1: 0.454277
+[1000]	training's l1: 0.0684391	valid_1's l1: 0.426188
+[1500]	training's l1: 0.0295364	valid_1's l1: 0.422277
+[2000]	training's l1: 0.0153014	valid_1's l1: 0.421207
+[2500]	training's l1: 0.0105862	valid_1's l1: 0.420859
+Did not meet early stopping. Best iteration is:
+[2500]	training's l1: 0.0105862	valid_1's l1: 0.420859
+CV mean score: -0.8681, std: 0.0093.
+Training of type 2JHN
+Fold 1 started at Fri Aug  2 09:48:33 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.146575	valid_1's l1: 0.257209
+[1000]	training's l1: 0.0772828	valid_1's l1: 0.239919
+[1500]	training's l1: 0.0451589	valid_1's l1: 0.235579
+[2000]	training's l1: 0.0284241	valid_1's l1: 0.233689
+[2500]	training's l1: 0.0194461	valid_1's l1: 0.232887
+Did not meet early stopping. Best iteration is:
+[2500]	training's l1: 0.0194461	valid_1's l1: 0.232887
+Fold 2 started at Fri Aug  2 09:49:59 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.145775	valid_1's l1: 0.256838
+[1000]	training's l1: 0.076156	valid_1's l1: 0.241098
+[1500]	training's l1: 0.0442084	valid_1's l1: 0.23657
+[2000]	training's l1: 0.0282852	valid_1's l1: 0.23482
+[2500]	training's l1: 0.0196463	valid_1's l1: 0.234089
+Did not meet early stopping. Best iteration is:
+[2500]	training's l1: 0.0196463	valid_1's l1: 0.234089
+Fold 3 started at Fri Aug  2 09:51:25 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.147404	valid_1's l1: 0.259051
+[1000]	training's l1: 0.0779334	valid_1's l1: 0.242038
+[1500]	training's l1: 0.0450777	valid_1's l1: 0.237759
+[2000]	training's l1: 0.0285635	valid_1's l1: 0.236007
+[2500]	training's l1: 0.0196807	valid_1's l1: 0.235228
+Did not meet early stopping. Best iteration is:
+[2500]	training's l1: 0.0196807	valid_1's l1: 0.235228
+CV mean score: -1.4522, std: 0.0041.
+Training of type 2JHC
+Fold 1 started at Fri Aug  2 09:53:04 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.504169	valid_1's l1: 0.542742
+[1000]	training's l1: 0.356035	valid_1's l1: 0.439638
+[1500]	training's l1: 0.283697	valid_1's l1: 0.402055
+[2000]	training's l1: 0.234468	valid_1's l1: 0.382025
+[2500]	training's l1: 0.198322	valid_1's l1: 0.37023
+[3000]	training's l1: 0.169033	valid_1's l1: 0.362164
+[3500]	training's l1: 0.145646	valid_1's l1: 0.356734
+[4000]	training's l1: 0.126061	valid_1's l1: 0.352692
+[4500]	training's l1: 0.109379	valid_1's l1: 0.349542
+[5000]	training's l1: 0.0954151	valid_1's l1: 0.347328
+Did not meet early stopping. Best iteration is:
+[5000]	training's l1: 0.0954151	valid_1's l1: 0.347328
+Fold 2 started at Fri Aug  2 10:14:59 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.502115	valid_1's l1: 0.541746
+[1000]	training's l1: 0.355436	valid_1's l1: 0.440755
+[1500]	training's l1: 0.282558	valid_1's l1: 0.403175
+[2000]	training's l1: 0.233969	valid_1's l1: 0.383103
+[2500]	training's l1: 0.19727	valid_1's l1: 0.370704
+[3000]	training's l1: 0.168835	valid_1's l1: 0.362737
+[3500]	training's l1: 0.145296	valid_1's l1: 0.357272
+[4000]	training's l1: 0.125855	valid_1's l1: 0.353315
+[4500]	training's l1: 0.109145	valid_1's l1: 0.350288
+[5000]	training's l1: 0.0952968	valid_1's l1: 0.348152
+Did not meet early stopping. Best iteration is:
+[5000]	training's l1: 0.0952968	valid_1's l1: 0.348152
+Fold 3 started at Fri Aug  2 10:37:45 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.507333	valid_1's l1: 0.545946
+[1000]	training's l1: 0.357729	valid_1's l1: 0.441842
+[1500]	training's l1: 0.285868	valid_1's l1: 0.405001
+[2000]	training's l1: 0.237809	valid_1's l1: 0.38523
+[2500]	training's l1: 0.200643	valid_1's l1: 0.372357
+[3000]	training's l1: 0.171331	valid_1's l1: 0.364036
+[3500]	training's l1: 0.147243	valid_1's l1: 0.358297
+[4000]	training's l1: 0.127698	valid_1's l1: 0.354295
+[4500]	training's l1: 0.111258	valid_1's l1: 0.351301
+[5000]	training's l1: 0.0972265	valid_1's l1: 0.349091
+Did not meet early stopping. Best iteration is:
+[5000]	training's l1: 0.0972265	valid_1's l1: 0.349091
+CV mean score: -1.0550, std: 0.0021.
+Training of type 3JHH
+Fold 1 started at Fri Aug  2 10:56:16 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.187656	valid_1's l1: 0.241643
+[1000]	training's l1: 0.12767	valid_1's l1: 0.218028
+[1500]	training's l1: 0.093338	valid_1's l1: 0.208702
+[2000]	training's l1: 0.0702166	valid_1's l1: 0.204064
+[2500]	training's l1: 0.0537634	valid_1's l1: 0.201396
+[3000]	training's l1: 0.0421657	valid_1's l1: 0.199838
+[3500]	training's l1: 0.0335927	valid_1's l1: 0.198856
+Did not meet early stopping. Best iteration is:
+[3500]	training's l1: 0.0335927	valid_1's l1: 0.198856
+Fold 2 started at Fri Aug  2 11:03:53 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.18491	valid_1's l1: 0.242989
+[1000]	training's l1: 0.12681	valid_1's l1: 0.219994
+[1500]	training's l1: 0.0925963	valid_1's l1: 0.210623
+[2000]	training's l1: 0.0700707	valid_1's l1: 0.206173
+[2500]	training's l1: 0.0538455	valid_1's l1: 0.203424
+[3000]	training's l1: 0.0422526	valid_1's l1: 0.201722
+[3500]	training's l1: 0.033775	valid_1's l1: 0.200711
+Did not meet early stopping. Best iteration is:
+[3500]	training's l1: 0.033775	valid_1's l1: 0.200711
+Fold 3 started at Fri Aug  2 11:11:02 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.187271	valid_1's l1: 0.242427
+[1000]	training's l1: 0.127541	valid_1's l1: 0.218079
+[1500]	training's l1: 0.0936051	valid_1's l1: 0.208676
+[2000]	training's l1: 0.0704162	valid_1's l1: 0.20405
+[2500]	training's l1: 0.0539028	valid_1's l1: 0.201425
+[3000]	training's l1: 0.0421063	valid_1's l1: 0.199806
+[3500]	training's l1: 0.0336586	valid_1's l1: 0.198814
+Did not meet early stopping. Best iteration is:
+[3500]	training's l1: 0.0336586	valid_1's l1: 0.198814
+CV mean score: -1.6121, std: 0.0044.
+Training of type 3JHC
+Fold 1 started at Fri Aug  2 11:18:34 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.547185	valid_1's l1: 0.575401
+[1000]	training's l1: 0.451374	valid_1's l1: 0.502791
+[1500]	training's l1: 0.392261	valid_1's l1: 0.463836
+[2000]	training's l1: 0.35103	valid_1's l1: 0.440656
+[2500]	training's l1: 0.318043	valid_1's l1: 0.424429
+[3000]	training's l1: 0.290806	valid_1's l1: 0.412217
+[3500]	training's l1: 0.26792	valid_1's l1: 0.403448
+[4000]	training's l1: 0.247345	valid_1's l1: 0.395912
+[4500]	training's l1: 0.22957	valid_1's l1: 0.390197
+[5000]	training's l1: 0.213179	valid_1's l1: 0.384904
+Did not meet early stopping. Best iteration is:
+[5000]	training's l1: 0.213179	valid_1's l1: 0.384904
+Fold 2 started at Fri Aug  2 11:39:55 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.545406	valid_1's l1: 0.572524
+[1000]	training's l1: 0.448929	valid_1's l1: 0.49952
+[1500]	training's l1: 0.389786	valid_1's l1: 0.460337
+[2000]	training's l1: 0.348094	valid_1's l1: 0.436772
+[2500]	training's l1: 0.31607	valid_1's l1: 0.421367
+[3000]	training's l1: 0.289381	valid_1's l1: 0.40965
+[3500]	training's l1: 0.2662	valid_1's l1: 0.400552
+[4000]	training's l1: 0.246312	valid_1's l1: 0.393551
+[4500]	training's l1: 0.227728	valid_1's l1: 0.386992
+[5000]	training's l1: 0.211691	valid_1's l1: 0.382075
+Did not meet early stopping. Best iteration is:
+[5000]	training's l1: 0.211691	valid_1's l1: 0.382075
+Fold 3 started at Fri Aug  2 12:01:57 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.546549	valid_1's l1: 0.573828
+[1000]	training's l1: 0.45075	valid_1's l1: 0.501505
+[1500]	training's l1: 0.392502	valid_1's l1: 0.463485
+[2000]	training's l1: 0.350478	valid_1's l1: 0.439472
+[2500]	training's l1: 0.318542	valid_1's l1: 0.424266
+[3000]	training's l1: 0.290994	valid_1's l1: 0.41169
+[3500]	training's l1: 0.267586	valid_1's l1: 0.402196
+[4000]	training's l1: 0.247558	valid_1's l1: 0.394985
+[4500]	training's l1: 0.229636	valid_1's l1: 0.388965
+[5000]	training's l1: 0.213251	valid_1's l1: 0.383578
+Did not meet early stopping. Best iteration is:
+[5000]	training's l1: 0.213251	valid_1's l1: 0.383578
+CV mean score: -0.9584, std: 0.0030.
+Training of type 3JHN
+Fold 1 started at Fri Aug  2 12:19:06 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.109163	valid_1's l1: 0.178537
+[1000]	training's l1: 0.0642388	valid_1's l1: 0.167633
+[1500]	training's l1: 0.0409599	valid_1's l1: 0.163684
+[2000]	training's l1: 0.0279288	valid_1's l1: 0.162005
+[2500]	training's l1: 0.020303	valid_1's l1: 0.161112
+Did not meet early stopping. Best iteration is:
+[2500]	training's l1: 0.020303	valid_1's l1: 0.161112
+Fold 2 started at Fri Aug  2 12:20:50 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.108031	valid_1's l1: 0.17737
+[1000]	training's l1: 0.0632955	valid_1's l1: 0.166277
+[1500]	training's l1: 0.0404214	valid_1's l1: 0.162514
+[2000]	training's l1: 0.0276624	valid_1's l1: 0.160725
+[2500]	training's l1: 0.0202118	valid_1's l1: 0.159932
+Did not meet early stopping. Best iteration is:
+[2500]	training's l1: 0.0202118	valid_1's l1: 0.159932
+Fold 3 started at Fri Aug  2 12:22:35 2019
+[LightGBM] [Warning] feature_fraction is set=0.6, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6
+[LightGBM] [Warning] lambda_l2 is set=0.2, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.2
+[LightGBM] [Warning] lambda_l1 is set=0.8, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.8
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.108818	valid_1's l1: 0.180148
+[1000]	training's l1: 0.0637836	valid_1's l1: 0.169088
+[1500]	training's l1: 0.0407836	valid_1's l1: 0.165194
+[2000]	training's l1: 0.0278486	valid_1's l1: 0.163463
+[2500]	training's l1: 0.0202709	valid_1's l1: 0.16258
+Did not meet early stopping. Best iteration is:
+[2500]	training's l1: 0.0202709	valid_1's l1: 0.16258
+CV mean score: -1.8251, std: 0.0067.
+Traceback (most recent call last):
+  File "bin/train_models.py", line 126, in <module>
+    subprocess.call(["exit"])
+  File "/usr/lib/python3.6/subprocess.py", line 287, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/usr/lib/python3.6/subprocess.py", line 729, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib/python3.6/subprocess.py", line 1364, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'exit': 'exit'
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    %config Application.verbose_crash=True
+
+shuki_goto@tabular2:~/CHAMPS/CHAMPS$ r[Kexit
+exit
+
+Script done on Fri 02 Aug 2019 01:01:00 PM UTC

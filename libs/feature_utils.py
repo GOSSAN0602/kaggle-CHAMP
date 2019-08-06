@@ -14,6 +14,10 @@ import gc
 import warnings
 warnings.filterwarnings("ignore")
 
+
+#def select_feature():
+    
+
 def map_atom_info(df_1, df_2, atom_idx):
     df = pd.merge(df_1, df_2, how = 'left',
                   left_on  = ['molecule_name', 'atom_index_'+str(atom_idx)],
