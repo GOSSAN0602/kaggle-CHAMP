@@ -18,7 +18,7 @@ from tqdm import tqdm
 
 import altair as alt
 from altair.vega import v5
-
+from ipdb import set_trace
 import tables
 
 file_folder = '../input/champsdata'
@@ -35,7 +35,6 @@ del yukawa_str
 print("basic feature engineering")
 #train = basic_feature_engineering(train, structures)
 test = basic_feature_engineering(test, structures)
-
 #distances
 #train_p_0 = train[['x_0', 'y_0', 'z_0']].values
 #train_p_1 = train[['x_1', 'y_1', 'z_1']].values
@@ -53,7 +52,6 @@ test['dist_z'] = (test['z_0'] - test['z_1']) ** 2
 
 #train['type_0'] = train['type'].apply(lambda x: x[0])
 test['type_0'] = test['type'].apply(lambda x: x[0])
-
 #print("create full features --train--")
 #train = create_features_full(train)
 print("create full features --test--")
@@ -61,5 +59,5 @@ test = create_features_full(test)
 
 print("saving... ")
 #train.to_hdf('andrew_yukawa_train.h5','df')
-test.to_hdf('andrew_yukawa_test.h5','df')
+#test.to_hdf('andrew_yukawa_test.h5','df')
 #structures.to_hdf('ultimate_structures.h5','df')

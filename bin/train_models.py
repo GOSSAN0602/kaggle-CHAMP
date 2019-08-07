@@ -7,7 +7,7 @@ sys.path.append('./')
 import subprocess
 
 from libs.andrew_utils import *
-from libs.feature_utils import get_columns
+from libs.feature_utils import get_columns, get_feature_columns
 from libs.get_dictionaries import *
 
 import matplotlib.pyplot as plt
@@ -40,6 +40,7 @@ args = parser.parse_args()
 
 os.mkdir('log/'+args.tag)
 
+feature_columns = get_feature_columns()
 #cmd = "script ./log/"+args.tag+"/loss.log"
 #subprocess.call(cmd.split())
 
@@ -49,6 +50,7 @@ train = pd.read_hdf(file_folder+'/ultimate_train.h5', 'df', engine='python')
 print('Load Test data')
 test = pd.read_hdf(file_folder+'/ultimate_test.h5', 'df', engine='python')
 sub = pd.read_csv('../input/champsdata/sample_submission.csv')
+
 
 y = train['scalar_coupling_constant']
 train = train.drop(columns = ['scalar_coupling_constant'])
@@ -90,8 +92,12 @@ for t in train['type'].unique():
     X_t = train.loc[train['type'] == t]
     X_test_t = test.loc[test['type'] == t]
     y_t = X_short.loc[X_short['type'] == t, 'target']
-    params = param_dict[type_]
+    params = param_dict[str(type_)]
     n_estimators = n_estimators_dict[type_]
+
+    # select features for each type
+    X_t = X_t.loc[:,feature_columns[str(type_)]]
+    X_test_t = X_test_t.loc[:,feature_columns[str(type_)]]
     result_dict_lgb = train_model_regression(args.tag, type_, X=X_t, X_test=X_test_t, y=y_t, params=params, folds=folds, model_type=args.model_type, eval_metric='group_mae', plot_feature_importance=True,
                                                       verbose=500, early_stopping_rounds=200, n_estimators=n_estimators)
     X_short.loc[X_short['type'] == t, 'oof'] = result_dict_lgb['oof']
@@ -126,4 +132,3 @@ plot_oof_preds('3JHC', -25, 100)
 plot_oof_preds('3JHH', -20, 20)
 plot_oof_preds('3JHN', -15, 15)
 
-subprocess.call(["exit"])
