@@ -25,7 +25,7 @@ def get_feature_columns(cut_rate=0.7):
     for t in list(ctype_list):
         print('read '+t+' feature')
         f_ = pd.read_csv(log_path+t+'feature_importance.csv')
-        threshold = int(f_.shape[0]/2*0.7)
+        threshold = int(f_.shape[0]/2*cut_rate)
         f_1 = f_[f_['fold']==1].drop(['Unnamed: 0','fold'],axis=1).sort_values(by='importance',ascending=False)[:threshold]
         f_2 = f_[f_['fold']==2].drop(['Unnamed: 0','fold'],axis=1).sort_values(by='importance',ascending=False)[:threshold]
         f_list_1.append(f_1)
