@@ -40,7 +40,7 @@ args = parser.parse_args()
 
 os.mkdir('log/'+args.tag)
 
-feature_columns = get_feature_columns(0.5)
+feature_columns = get_feature_columns(0.1)
 #cmd = "script ./log/"+args.tag+"/loss.log"
 #subprocess.call(cmd.split())
 
