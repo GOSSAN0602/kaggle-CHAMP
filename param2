@@ -1,0 +1,1498 @@
+Script started on Fri 09 Aug 2019 10:11:20 AM UTC
+shuki_goto@tabular2:~/CHAMPS/CHAMPS$ python tra[K[K[Kbin/train_models.py param2
+read 1JHC feature
+read 2JHC feature
+read 2JHN feature
+read 1JHN feature
+read 2JHH feature
+read 3JHC feature
+read 3JHH feature
+read 3JHN feature
+Load Train data
+Load Test data
+Encoding label features...
+Training of type 1JHC
+Fold 1 started at Fri Aug  9 10:15:10 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 1.75913	valid_1's l1: 1.86402
+[1000]	training's l1: 0.922906	valid_1's l1: 1.04902
+[1500]	training's l1: 0.652012	valid_1's l1: 0.8705
+[2000]	training's l1: 0.509636	valid_1's l1: 0.793878
+[2500]	training's l1: 0.413433	valid_1's l1: 0.749238
+[3000]	training's l1: 0.341244	valid_1's l1: 0.720456
+[3500]	training's l1: 0.287267	valid_1's l1: 0.701574
+[4000]	training's l1: 0.243472	valid_1's l1: 0.687759
+[4500]	training's l1: 0.207794	valid_1's l1: 0.677921
+[5000]	training's l1: 0.177744	valid_1's l1: 0.670408
+[5500]	training's l1: 0.15337	valid_1's l1: 0.664322
+[6000]	training's l1: 0.132955	valid_1's l1: 0.659667
+[6500]	training's l1: 0.115875	valid_1's l1: 0.655779
+[7000]	training's l1: 0.101816	valid_1's l1: 0.653038
+[7500]	training's l1: 0.0892163	valid_1's l1: 0.650645
+[8000]	training's l1: 0.0784104	valid_1's l1: 0.648748
+[8500]	training's l1: 0.0692412	valid_1's l1: 0.647225
+[9000]	training's l1: 0.0614005	valid_1's l1: 0.646086
+[9500]	training's l1: 0.054562	valid_1's l1: 0.645124
+[10000]	training's l1: 0.0486714	valid_1's l1: 0.644268
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0486714	valid_1's l1: 0.644268
+Fold 2 started at Fri Aug  9 10:25:38 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 1.74936	valid_1's l1: 1.84747
+[1000]	training's l1: 0.919397	valid_1's l1: 1.03146
+[1500]	training's l1: 0.648777	valid_1's l1: 0.857533
+[2000]	training's l1: 0.507016	valid_1's l1: 0.78422
+[2500]	training's l1: 0.412895	valid_1's l1: 0.742825
+[3000]	training's l1: 0.342781	valid_1's l1: 0.716295
+[3500]	training's l1: 0.287631	valid_1's l1: 0.697381
+[4000]	training's l1: 0.243107	valid_1's l1: 0.684071
+[4500]	training's l1: 0.207089	valid_1's l1: 0.674089
+[5000]	training's l1: 0.176892	valid_1's l1: 0.666402
+[5500]	training's l1: 0.151644	valid_1's l1: 0.660294
+[6000]	training's l1: 0.131051	valid_1's l1: 0.655852
+[6500]	training's l1: 0.114047	valid_1's l1: 0.652379
+[7000]	training's l1: 0.0992248	valid_1's l1: 0.64955
+[7500]	training's l1: 0.0866998	valid_1's l1: 0.647475
+[8000]	training's l1: 0.0762554	valid_1's l1: 0.645663
+[8500]	training's l1: 0.0672849	valid_1's l1: 0.644275
+[9000]	training's l1: 0.0594947	valid_1's l1: 0.643189
+[9500]	training's l1: 0.0528222	valid_1's l1: 0.642281
+[10000]	training's l1: 0.0470775	valid_1's l1: 0.641542
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0470775	valid_1's l1: 0.641542
+Fold 3 started at Fri Aug  9 10:36:11 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 1.74163	valid_1's l1: 1.80119
+[1000]	training's l1: 0.85236	valid_1's l1: 0.997441
+[1500]	training's l1: 0.618603	valid_1's l1: 0.847895
+[2000]	training's l1: 0.488803	valid_1's l1: 0.78166
+[2500]	training's l1: 0.397979	valid_1's l1: 0.741601
+[3000]	training's l1: 0.331153	valid_1's l1: 0.716218
+[3500]	training's l1: 0.278109	valid_1's l1: 0.697904
+[4000]	training's l1: 0.234982	valid_1's l1: 0.684528
+[4500]	training's l1: 0.200399	valid_1's l1: 0.67509
+[5000]	training's l1: 0.171506	valid_1's l1: 0.667737
+[5500]	training's l1: 0.147209	valid_1's l1: 0.66196
+[6000]	training's l1: 0.127181	valid_1's l1: 0.657552
+[6500]	training's l1: 0.1104	valid_1's l1: 0.654278
+[7000]	training's l1: 0.0962054	valid_1's l1: 0.651558
+[7500]	training's l1: 0.0842627	valid_1's l1: 0.649485
+[8000]	training's l1: 0.0739801	valid_1's l1: 0.6478
+[8500]	training's l1: 0.0654939	valid_1's l1: 0.646425
+[9000]	training's l1: 0.058097	valid_1's l1: 0.645375
+[9500]	training's l1: 0.0517173	valid_1's l1: 0.644474
+[10000]	training's l1: 0.0460884	valid_1's l1: 0.643802
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0460884	valid_1's l1: 0.643802
+Fold 4 started at Fri Aug  9 10:46:49 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 1.7549	valid_1's l1: 1.82066
+[1000]	training's l1: 0.919561	valid_1's l1: 1.03575
+[1500]	training's l1: 0.650796	valid_1's l1: 0.860718
+[2000]	training's l1: 0.50906	valid_1's l1: 0.787079
+[2500]	training's l1: 0.414439	valid_1's l1: 0.745376
+[3000]	training's l1: 0.342103	valid_1's l1: 0.717228
+[3500]	training's l1: 0.286473	valid_1's l1: 0.698292
+[4000]	training's l1: 0.242194	valid_1's l1: 0.684552
+[4500]	training's l1: 0.206199	valid_1's l1: 0.674339
+[5000]	training's l1: 0.176791	valid_1's l1: 0.666528
+[5500]	training's l1: 0.151792	valid_1's l1: 0.660781
+[6000]	training's l1: 0.130616	valid_1's l1: 0.656107
+[6500]	training's l1: 0.113038	valid_1's l1: 0.652504
+[7000]	training's l1: 0.0984803	valid_1's l1: 0.64982
+[7500]	training's l1: 0.0861228	valid_1's l1: 0.647607
+[8000]	training's l1: 0.0756136	valid_1's l1: 0.645862
+[8500]	training's l1: 0.0666832	valid_1's l1: 0.644494
+[9000]	training's l1: 0.0589997	valid_1's l1: 0.643417
+[9500]	training's l1: 0.0523998	valid_1's l1: 0.642513
+[10000]	training's l1: 0.0465451	valid_1's l1: 0.641712
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0465451	valid_1's l1: 0.641712
+Fold 5 started at Fri Aug  9 10:57:23 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 1.75413	valid_1's l1: 1.8362
+[1000]	training's l1: 0.917442	valid_1's l1: 1.04327
+[1500]	training's l1: 0.656044	valid_1's l1: 0.869769
+[2000]	training's l1: 0.511916	valid_1's l1: 0.791959
+[2500]	training's l1: 0.41262	valid_1's l1: 0.7474
+[3000]	training's l1: 0.341559	valid_1's l1: 0.718984
+[3500]	training's l1: 0.287475	valid_1's l1: 0.69981
+[4000]	training's l1: 0.243184	valid_1's l1: 0.685573
+[4500]	training's l1: 0.206709	valid_1's l1: 0.675009
+[5000]	training's l1: 0.176576	valid_1's l1: 0.667395
+[5500]	training's l1: 0.151616	valid_1's l1: 0.661288
+[6000]	training's l1: 0.130723	valid_1's l1: 0.656712
+[6500]	training's l1: 0.113248	valid_1's l1: 0.653089
+[7000]	training's l1: 0.0984126	valid_1's l1: 0.650244
+[7500]	training's l1: 0.0862366	valid_1's l1: 0.648168
+[8000]	training's l1: 0.0757309	valid_1's l1: 0.646522
+[8500]	training's l1: 0.0667803	valid_1's l1: 0.645161
+[9000]	training's l1: 0.0589889	valid_1's l1: 0.644071
+[9500]	training's l1: 0.0523305	valid_1's l1: 0.643167
+[10000]	training's l1: 0.0465338	valid_1's l1: 0.642471
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0465338	valid_1's l1: 0.642471
+Fold 6 started at Fri Aug  9 11:08:01 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 1.74952	valid_1's l1: 1.8496
+[1000]	training's l1: 0.920372	valid_1's l1: 1.04986
+[1500]	training's l1: 0.654796	valid_1's l1: 0.876097
+[2000]	training's l1: 0.510667	valid_1's l1: 0.800218
+[2500]	training's l1: 0.413135	valid_1's l1: 0.755463
+[3000]	training's l1: 0.341858	valid_1's l1: 0.727416
+[3500]	training's l1: 0.285602	valid_1's l1: 0.707858
+[4000]	training's l1: 0.241315	valid_1's l1: 0.694262
+[4500]	training's l1: 0.204778	valid_1's l1: 0.684113
+[5000]	training's l1: 0.175098	valid_1's l1: 0.676691
+[5500]	training's l1: 0.150534	valid_1's l1: 0.670826
+[6000]	training's l1: 0.130321	valid_1's l1: 0.666462
+[6500]	training's l1: 0.112834	valid_1's l1: 0.66304
+[7000]	training's l1: 0.0981904	valid_1's l1: 0.660243
+[7500]	training's l1: 0.0860846	valid_1's l1: 0.65811
+[8000]	training's l1: 0.0755908	valid_1's l1: 0.656437
+[8500]	training's l1: 0.0666302	valid_1's l1: 0.655045
+[9000]	training's l1: 0.0587817	valid_1's l1: 0.653978
+[9500]	training's l1: 0.0521201	valid_1's l1: 0.652993
+[10000]	training's l1: 0.0463156	valid_1's l1: 0.652259
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0463156	valid_1's l1: 0.652259
+Fold 7 started at Fri Aug  9 11:18:42 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 1.7521	valid_1's l1: 1.80528
+[1000]	training's l1: 0.9123	valid_1's l1: 1.03401
+[1500]	training's l1: 0.647996	valid_1's l1: 0.86278
+[2000]	training's l1: 0.5052	valid_1's l1: 0.78864
+[2500]	training's l1: 0.409009	valid_1's l1: 0.745301
+[3000]	training's l1: 0.339115	valid_1's l1: 0.717848
+[3500]	training's l1: 0.284413	valid_1's l1: 0.699439
+[4000]	training's l1: 0.240253	valid_1's l1: 0.685926
+[4500]	training's l1: 0.20461	valid_1's l1: 0.676147
+[5000]	training's l1: 0.174955	valid_1's l1: 0.668693
+[5500]	training's l1: 0.150106	valid_1's l1: 0.662749
+[6000]	training's l1: 0.129577	valid_1's l1: 0.658465
+[6500]	training's l1: 0.112348	valid_1's l1: 0.65514
+[7000]	training's l1: 0.0981399	valid_1's l1: 0.652543
+[7500]	training's l1: 0.0859243	valid_1's l1: 0.650555
+[8000]	training's l1: 0.075662	valid_1's l1: 0.648819
+[8500]	training's l1: 0.0670341	valid_1's l1: 0.647421
+[9000]	training's l1: 0.059514	valid_1's l1: 0.646312
+[9500]	training's l1: 0.052698	valid_1's l1: 0.645325
+[10000]	training's l1: 0.0469807	valid_1's l1: 0.644527
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0469807	valid_1's l1: 0.644527
+Fold 8 started at Fri Aug  9 11:29:10 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 1.73325	valid_1's l1: 1.86093
+[1000]	training's l1: 0.840216	valid_1's l1: 0.988905
+[1500]	training's l1: 0.611243	valid_1's l1: 0.847781
+[2000]	training's l1: 0.483166	valid_1's l1: 0.782285
+[2500]	training's l1: 0.393367	valid_1's l1: 0.742526
+[3000]	training's l1: 0.325996	valid_1's l1: 0.716992
+[3500]	training's l1: 0.273802	valid_1's l1: 0.698479
+[4000]	training's l1: 0.23124	valid_1's l1: 0.684985
+[4500]	training's l1: 0.196795	valid_1's l1: 0.675327
+[5000]	training's l1: 0.168537	valid_1's l1: 0.66819
+[5500]	training's l1: 0.145367	valid_1's l1: 0.662888
+[6000]	training's l1: 0.125982	valid_1's l1: 0.658474
+[6500]	training's l1: 0.109463	valid_1's l1: 0.655009
+[7000]	training's l1: 0.095252	valid_1's l1: 0.652456
+[7500]	training's l1: 0.0834359	valid_1's l1: 0.650159
+[8000]	training's l1: 0.0734082	valid_1's l1: 0.648455
+[8500]	training's l1: 0.0647893	valid_1's l1: 0.6471
+[9000]	training's l1: 0.0573074	valid_1's l1: 0.645967
+[9500]	training's l1: 0.0507254	valid_1's l1: 0.644994
+[10000]	training's l1: 0.0452217	valid_1's l1: 0.644335
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0452217	valid_1's l1: 0.644335
+CV mean score: -0.4395, std: 0.0049.
+Training of type 2JHH
+Fold 1 started at Fri Aug  9 11:40:10 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.171697	valid_1's l1: 0.203106
+[1000]	training's l1: 0.123737	valid_1's l1: 0.173852
+[1500]	training's l1: 0.0993167	valid_1's l1: 0.162145
+[2000]	training's l1: 0.0831991	valid_1's l1: 0.155807
+[2500]	training's l1: 0.0706293	valid_1's l1: 0.151418
+[3000]	training's l1: 0.0610796	valid_1's l1: 0.148569
+[3500]	training's l1: 0.0531492	valid_1's l1: 0.146452
+[4000]	training's l1: 0.0466545	valid_1's l1: 0.144862
+[4500]	training's l1: 0.0413117	valid_1's l1: 0.143734
+[5000]	training's l1: 0.0367261	valid_1's l1: 0.142852
+[5500]	training's l1: 0.0328476	valid_1's l1: 0.142078
+[6000]	training's l1: 0.0295479	valid_1's l1: 0.141497
+[6500]	training's l1: 0.0265949	valid_1's l1: 0.141052
+[7000]	training's l1: 0.0241542	valid_1's l1: 0.140716
+[7500]	training's l1: 0.0219058	valid_1's l1: 0.140392
+[8000]	training's l1: 0.019924	valid_1's l1: 0.140144
+[8500]	training's l1: 0.018199	valid_1's l1: 0.139941
+[9000]	training's l1: 0.016721	valid_1's l1: 0.139742
+[9500]	training's l1: 0.0155122	valid_1's l1: 0.139627
+[10000]	training's l1: 0.0144256	valid_1's l1: 0.13952
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0144256	valid_1's l1: 0.13952
+Fold 2 started at Fri Aug  9 11:43:42 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.171776	valid_1's l1: 0.20234
+[1000]	training's l1: 0.123857	valid_1's l1: 0.172167
+[1500]	training's l1: 0.0989892	valid_1's l1: 0.16027
+[2000]	training's l1: 0.0826459	valid_1's l1: 0.153818
+[2500]	training's l1: 0.0702476	valid_1's l1: 0.149559
+[3000]	training's l1: 0.0605056	valid_1's l1: 0.146635
+[3500]	training's l1: 0.0528704	valid_1's l1: 0.14457
+[4000]	training's l1: 0.0463172	valid_1's l1: 0.142938
+[4500]	training's l1: 0.0408917	valid_1's l1: 0.141803
+[5000]	training's l1: 0.0363151	valid_1's l1: 0.140885
+[5500]	training's l1: 0.0324004	valid_1's l1: 0.140183
+[6000]	training's l1: 0.0290842	valid_1's l1: 0.139686
+[6500]	training's l1: 0.0262313	valid_1's l1: 0.139227
+[7000]	training's l1: 0.0237118	valid_1's l1: 0.138877
+[7500]	training's l1: 0.0215071	valid_1's l1: 0.138519
+[8000]	training's l1: 0.0196433	valid_1's l1: 0.138277
+[8500]	training's l1: 0.0180026	valid_1's l1: 0.138088
+[9000]	training's l1: 0.0165642	valid_1's l1: 0.137917
+[9500]	training's l1: 0.0152632	valid_1's l1: 0.137765
+[10000]	training's l1: 0.0142472	valid_1's l1: 0.13766
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0142472	valid_1's l1: 0.13766
+Fold 3 started at Fri Aug  9 11:47:14 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.172261	valid_1's l1: 0.201831
+[1000]	training's l1: 0.123355	valid_1's l1: 0.171734
+[1500]	training's l1: 0.0991065	valid_1's l1: 0.160163
+[2000]	training's l1: 0.0827295	valid_1's l1: 0.15346
+[2500]	training's l1: 0.0704305	valid_1's l1: 0.149356
+[3000]	training's l1: 0.0607841	valid_1's l1: 0.146595
+[3500]	training's l1: 0.0529808	valid_1's l1: 0.14461
+[4000]	training's l1: 0.0466338	valid_1's l1: 0.143134
+[4500]	training's l1: 0.0413065	valid_1's l1: 0.141934
+[5000]	training's l1: 0.0366308	valid_1's l1: 0.141092
+[5500]	training's l1: 0.0326498	valid_1's l1: 0.140339
+[6000]	training's l1: 0.0292702	valid_1's l1: 0.139817
+[6500]	training's l1: 0.0262915	valid_1's l1: 0.139356
+[7000]	training's l1: 0.0238965	valid_1's l1: 0.139004
+[7500]	training's l1: 0.0217855	valid_1's l1: 0.138679
+[8000]	training's l1: 0.0198883	valid_1's l1: 0.138423
+[8500]	training's l1: 0.0181657	valid_1's l1: 0.138222
+[9000]	training's l1: 0.0166645	valid_1's l1: 0.138051
+[9500]	training's l1: 0.0154664	valid_1's l1: 0.137932
+[10000]	training's l1: 0.0143748	valid_1's l1: 0.13782
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0143748	valid_1's l1: 0.13782
+Fold 4 started at Fri Aug  9 11:50:46 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.169898	valid_1's l1: 0.203601
+[1000]	training's l1: 0.122877	valid_1's l1: 0.174534
+[1500]	training's l1: 0.0983982	valid_1's l1: 0.162537
+[2000]	training's l1: 0.0821139	valid_1's l1: 0.156184
+[2500]	training's l1: 0.0697348	valid_1's l1: 0.151878
+[3000]	training's l1: 0.0603846	valid_1's l1: 0.149172
+[3500]	training's l1: 0.052726	valid_1's l1: 0.147149
+[4000]	training's l1: 0.0463594	valid_1's l1: 0.145645
+[4500]	training's l1: 0.0408366	valid_1's l1: 0.144489
+[5000]	training's l1: 0.0362185	valid_1's l1: 0.143614
+[5500]	training's l1: 0.0323057	valid_1's l1: 0.142919
+[6000]	training's l1: 0.0289604	valid_1's l1: 0.142305
+[6500]	training's l1: 0.0260504	valid_1's l1: 0.141818
+[7000]	training's l1: 0.0234913	valid_1's l1: 0.141415
+[7500]	training's l1: 0.021225	valid_1's l1: 0.141085
+[8000]	training's l1: 0.0191765	valid_1's l1: 0.140817
+[8500]	training's l1: 0.0173128	valid_1's l1: 0.140599
+[9000]	training's l1: 0.0156684	valid_1's l1: 0.140416
+[9500]	training's l1: 0.0141531	valid_1's l1: 0.140242
+[10000]	training's l1: 0.0127999	valid_1's l1: 0.140114
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0127999	valid_1's l1: 0.140114
+Fold 5 started at Fri Aug  9 11:54:21 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.171993	valid_1's l1: 0.204489
+[1000]	training's l1: 0.123755	valid_1's l1: 0.174447
+[1500]	training's l1: 0.0995402	valid_1's l1: 0.162546
+[2000]	training's l1: 0.0828958	valid_1's l1: 0.155846
+[2500]	training's l1: 0.07083	valid_1's l1: 0.151844
+[3000]	training's l1: 0.0611677	valid_1's l1: 0.148892
+[3500]	training's l1: 0.0531294	valid_1's l1: 0.146556
+[4000]	training's l1: 0.0467037	valid_1's l1: 0.145001
+[4500]	training's l1: 0.0412627	valid_1's l1: 0.143789
+[5000]	training's l1: 0.0365796	valid_1's l1: 0.142848
+[5500]	training's l1: 0.0326816	valid_1's l1: 0.142126
+[6000]	training's l1: 0.0292252	valid_1's l1: 0.141538
+[6500]	training's l1: 0.0263057	valid_1's l1: 0.141068
+[7000]	training's l1: 0.0238039	valid_1's l1: 0.140684
+[7500]	training's l1: 0.0215803	valid_1's l1: 0.140382
+[8000]	training's l1: 0.0196974	valid_1's l1: 0.140135
+[8500]	training's l1: 0.0179496	valid_1's l1: 0.139876
+[9000]	training's l1: 0.0164557	valid_1's l1: 0.139716
+[9500]	training's l1: 0.0152076	valid_1's l1: 0.13959
+[10000]	training's l1: 0.0141569	valid_1's l1: 0.139463
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0141569	valid_1's l1: 0.139463
+Fold 6 started at Fri Aug  9 11:58:00 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.170447	valid_1's l1: 0.203771
+[1000]	training's l1: 0.122509	valid_1's l1: 0.173456
+[1500]	training's l1: 0.0983595	valid_1's l1: 0.161666
+[2000]	training's l1: 0.0822072	valid_1's l1: 0.155228
+[2500]	training's l1: 0.0700946	valid_1's l1: 0.151087
+[3000]	training's l1: 0.0606486	valid_1's l1: 0.14833
+[3500]	training's l1: 0.0528218	valid_1's l1: 0.146332
+[4000]	training's l1: 0.0463703	valid_1's l1: 0.144856
+[4500]	training's l1: 0.0411013	valid_1's l1: 0.143787
+[5000]	training's l1: 0.0365766	valid_1's l1: 0.142915
+[5500]	training's l1: 0.0326756	valid_1's l1: 0.142214
+[6000]	training's l1: 0.0292574	valid_1's l1: 0.141558
+[6500]	training's l1: 0.0262767	valid_1's l1: 0.141082
+[7000]	training's l1: 0.0237056	valid_1's l1: 0.140734
+[7500]	training's l1: 0.0215125	valid_1's l1: 0.140388
+[8000]	training's l1: 0.0196031	valid_1's l1: 0.140114
+[8500]	training's l1: 0.0178839	valid_1's l1: 0.139894
+[9000]	training's l1: 0.0164273	valid_1's l1: 0.139711
+[9500]	training's l1: 0.0151172	valid_1's l1: 0.139594
+[10000]	training's l1: 0.0140537	valid_1's l1: 0.139486
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0140537	valid_1's l1: 0.139486
+Fold 7 started at Fri Aug  9 12:01:30 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.171342	valid_1's l1: 0.200266
+[1000]	training's l1: 0.123819	valid_1's l1: 0.171193
+[1500]	training's l1: 0.0987604	valid_1's l1: 0.159268
+[2000]	training's l1: 0.0825151	valid_1's l1: 0.153153
+[2500]	training's l1: 0.0704439	valid_1's l1: 0.149043
+[3000]	training's l1: 0.0608395	valid_1's l1: 0.146337
+[3500]	training's l1: 0.052953	valid_1's l1: 0.144294
+[4000]	training's l1: 0.0464695	valid_1's l1: 0.14285
+[4500]	training's l1: 0.0410896	valid_1's l1: 0.141701
+[5000]	training's l1: 0.0365249	valid_1's l1: 0.14079
+[5500]	training's l1: 0.0325705	valid_1's l1: 0.140146
+[6000]	training's l1: 0.0291969	valid_1's l1: 0.139528
+[6500]	training's l1: 0.0263388	valid_1's l1: 0.139103
+[7000]	training's l1: 0.0238583	valid_1's l1: 0.138732
+[7500]	training's l1: 0.0216477	valid_1's l1: 0.138423
+[8000]	training's l1: 0.0196791	valid_1's l1: 0.138153
+[8500]	training's l1: 0.0180156	valid_1's l1: 0.137953
+[9000]	training's l1: 0.0166072	valid_1's l1: 0.137794
+[9500]	training's l1: 0.0152933	valid_1's l1: 0.13765
+[10000]	training's l1: 0.0142785	valid_1's l1: 0.137554
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0142785	valid_1's l1: 0.137554
+Fold 8 started at Fri Aug  9 12:05:02 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.1712	valid_1's l1: 0.203802
+[1000]	training's l1: 0.123675	valid_1's l1: 0.174118
+[1500]	training's l1: 0.0991416	valid_1's l1: 0.161951
+[2000]	training's l1: 0.0826457	valid_1's l1: 0.155179
+[2500]	training's l1: 0.070331	valid_1's l1: 0.15092
+[3000]	training's l1: 0.0609372	valid_1's l1: 0.14806
+[3500]	training's l1: 0.0531797	valid_1's l1: 0.146062
+[4000]	training's l1: 0.0467949	valid_1's l1: 0.14461
+[4500]	training's l1: 0.0413229	valid_1's l1: 0.143489
+[5000]	training's l1: 0.0367534	valid_1's l1: 0.142604
+[5500]	training's l1: 0.0327938	valid_1's l1: 0.141953
+[6000]	training's l1: 0.0294033	valid_1's l1: 0.141382
+[6500]	training's l1: 0.0264975	valid_1's l1: 0.140943
+[7000]	training's l1: 0.0239349	valid_1's l1: 0.140592
+[7500]	training's l1: 0.0217562	valid_1's l1: 0.140317
+[8000]	training's l1: 0.0197898	valid_1's l1: 0.140044
+[8500]	training's l1: 0.0180654	valid_1's l1: 0.139861
+[9000]	training's l1: 0.0165649	valid_1's l1: 0.139687
+[9500]	training's l1: 0.0152451	valid_1's l1: 0.139534
+[10000]	training's l1: 0.0142003	valid_1's l1: 0.139423
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0142003	valid_1's l1: 0.139423
+CV mean score: -1.9742, std: 0.0069.
+Training of type 1JHN
+Fold 1 started at Fri Aug  9 12:08:41 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.266307	valid_1's l1: 0.482905
+[1000]	training's l1: 0.120728	valid_1's l1: 0.440751
+[1500]	training's l1: 0.0693043	valid_1's l1: 0.432687
+[2000]	training's l1: 0.0393728	valid_1's l1: 0.429348
+[2500]	training's l1: 0.0228039	valid_1's l1: 0.428112
+[3000]	training's l1: 0.0127451	valid_1's l1: 0.427454
+[3500]	training's l1: 0.00704724	valid_1's l1: 0.427127
+[4000]	training's l1: 0.00396747	valid_1's l1: 0.426975
+[4500]	training's l1: 0.00228462	valid_1's l1: 0.426918
+[5000]	training's l1: 0.00132377	valid_1's l1: 0.426883
+[5500]	training's l1: 0.000773082	valid_1's l1: 0.426868
+[6000]	training's l1: 0.000458284	valid_1's l1: 0.426859
+[6500]	training's l1: 0.000276628	valid_1's l1: 0.426855
+[7000]	training's l1: 0.000166882	valid_1's l1: 0.42685
+[7500]	training's l1: 0.00010262	valid_1's l1: 0.426848
+[8000]	training's l1: 6.39589e-05	valid_1's l1: 0.426848
+Early stopping, best iteration is:
+[7829]	training's l1: 7.5213e-05	valid_1's l1: 0.426848
+Fold 2 started at Fri Aug  9 12:09:30 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.267512	valid_1's l1: 0.507491
+[1000]	training's l1: 0.128315	valid_1's l1: 0.465776
+[1500]	training's l1: 0.0694295	valid_1's l1: 0.456161
+[2000]	training's l1: 0.0408292	valid_1's l1: 0.452627
+[2500]	training's l1: 0.0268977	valid_1's l1: 0.451393
+[3000]	training's l1: 0.0152372	valid_1's l1: 0.450534
+[3500]	training's l1: 0.00850558	valid_1's l1: 0.450139
+[4000]	training's l1: 0.00484571	valid_1's l1: 0.449985
+[4500]	training's l1: 0.00272144	valid_1's l1: 0.449884
+[5000]	training's l1: 0.00159939	valid_1's l1: 0.449833
+[5500]	training's l1: 0.000930159	valid_1's l1: 0.449802
+[6000]	training's l1: 0.000560615	valid_1's l1: 0.449789
+[6500]	training's l1: 0.000338767	valid_1's l1: 0.449783
+Early stopping, best iteration is:
+[6419]	training's l1: 0.000367136	valid_1's l1: 0.449782
+Fold 3 started at Fri Aug  9 12:10:17 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.264019	valid_1's l1: 0.501025
+[1000]	training's l1: 0.123583	valid_1's l1: 0.460349
+[1500]	training's l1: 0.0689345	valid_1's l1: 0.452002
+[2000]	training's l1: 0.0383021	valid_1's l1: 0.448628
+[2500]	training's l1: 0.0227529	valid_1's l1: 0.447379
+[3000]	training's l1: 0.0161511	valid_1's l1: 0.446867
+[3500]	training's l1: 0.00965376	valid_1's l1: 0.446482
+[4000]	training's l1: 0.0055168	valid_1's l1: 0.446264
+[4500]	training's l1: 0.00312618	valid_1's l1: 0.446148
+[5000]	training's l1: 0.00181292	valid_1's l1: 0.446068
+[5500]	training's l1: 0.00106959	valid_1's l1: 0.446021
+[6000]	training's l1: 0.000647445	valid_1's l1: 0.446002
+[6500]	training's l1: 0.000390375	valid_1's l1: 0.445991
+[7000]	training's l1: 0.000239913	valid_1's l1: 0.445986
+[7500]	training's l1: 0.000148893	valid_1's l1: 0.445983
+[8000]	training's l1: 9.26119e-05	valid_1's l1: 0.445981
+[8500]	training's l1: 5.83944e-05	valid_1's l1: 0.445979
+[9000]	training's l1: 3.70307e-05	valid_1's l1: 0.445979
+[9500]	training's l1: 2.38789e-05	valid_1's l1: 0.445978
+Early stopping, best iteration is:
+[9638]	training's l1: 2.11045e-05	valid_1's l1: 0.445978
+Fold 4 started at Fri Aug  9 12:11:16 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.261575	valid_1's l1: 0.48844
+[1000]	training's l1: 0.121716	valid_1's l1: 0.447598
+[1500]	training's l1: 0.0684008	valid_1's l1: 0.438087
+[2000]	training's l1: 0.0388405	valid_1's l1: 0.434896
+[2500]	training's l1: 0.0227162	valid_1's l1: 0.433819
+[3000]	training's l1: 0.0124659	valid_1's l1: 0.433074
+[3500]	training's l1: 0.00692612	valid_1's l1: 0.4326
+[4000]	training's l1: 0.00392146	valid_1's l1: 0.432416
+[4500]	training's l1: 0.0022665	valid_1's l1: 0.43233
+[5000]	training's l1: 0.00132052	valid_1's l1: 0.432284
+[5500]	training's l1: 0.000773073	valid_1's l1: 0.432263
+[6000]	training's l1: 0.000460593	valid_1's l1: 0.43225
+[6500]	training's l1: 0.000281799	valid_1's l1: 0.432241
+Early stopping, best iteration is:
+[6584]	training's l1: 0.000260837	valid_1's l1: 0.43224
+Fold 5 started at Fri Aug  9 12:11:56 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.264166	valid_1's l1: 0.500517
+[1000]	training's l1: 0.121647	valid_1's l1: 0.463559
+[1500]	training's l1: 0.0677504	valid_1's l1: 0.455748
+[2000]	training's l1: 0.0409335	valid_1's l1: 0.452874
+[2500]	training's l1: 0.0253861	valid_1's l1: 0.451788
+[3000]	training's l1: 0.0139885	valid_1's l1: 0.45071
+[3500]	training's l1: 0.00768831	valid_1's l1: 0.45043
+[4000]	training's l1: 0.00430962	valid_1's l1: 0.450298
+[4500]	training's l1: 0.00243088	valid_1's l1: 0.45021
+[5000]	training's l1: 0.00142417	valid_1's l1: 0.450174
+[5500]	training's l1: 0.000823318	valid_1's l1: 0.450162
+[6000]	training's l1: 0.000493593	valid_1's l1: 0.450149
+[6500]	training's l1: 0.000301572	valid_1's l1: 0.450145
+[7000]	training's l1: 0.000182539	valid_1's l1: 0.45014
+[7500]	training's l1: 0.000113904	valid_1's l1: 0.450138
+[8000]	training's l1: 7.15067e-05	valid_1's l1: 0.450137
+Early stopping, best iteration is:
+[8136]	training's l1: 6.28169e-05	valid_1's l1: 0.450137
+Fold 6 started at Fri Aug  9 12:12:45 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.269698	valid_1's l1: 0.50573
+[1000]	training's l1: 0.123167	valid_1's l1: 0.465165
+[1500]	training's l1: 0.0690944	valid_1's l1: 0.456217
+[2000]	training's l1: 0.0400393	valid_1's l1: 0.452832
+[2500]	training's l1: 0.023528	valid_1's l1: 0.451063
+[3000]	training's l1: 0.0133787	valid_1's l1: 0.450398
+[3500]	training's l1: 0.00735355	valid_1's l1: 0.449988
+[4000]	training's l1: 0.00417722	valid_1's l1: 0.449861
+[4500]	training's l1: 0.00239039	valid_1's l1: 0.449776
+[5000]	training's l1: 0.00137762	valid_1's l1: 0.449725
+[5500]	training's l1: 0.000817276	valid_1's l1: 0.449701
+[6000]	training's l1: 0.000483851	valid_1's l1: 0.449695
+[6500]	training's l1: 0.00029327	valid_1's l1: 0.449687
+[7000]	training's l1: 0.000177273	valid_1's l1: 0.449683
+[7500]	training's l1: 0.000109045	valid_1's l1: 0.449681
+[8000]	training's l1: 6.74907e-05	valid_1's l1: 0.44968
+[8500]	training's l1: 4.29443e-05	valid_1's l1: 0.449679
+[9000]	training's l1: 2.71735e-05	valid_1's l1: 0.449678
+[9500]	training's l1: 1.72661e-05	valid_1's l1: 0.449678
+[10000]	training's l1: 1.10368e-05	valid_1's l1: 0.449678
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 1.10368e-05	valid_1's l1: 0.449678
+Fold 7 started at Fri Aug  9 12:13:46 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.264375	valid_1's l1: 0.492528
+[1000]	training's l1: 0.124698	valid_1's l1: 0.454462
+[1500]	training's l1: 0.070974	valid_1's l1: 0.445437
+[2000]	training's l1: 0.0397953	valid_1's l1: 0.442212
+[2500]	training's l1: 0.0240575	valid_1's l1: 0.4408
+[3000]	training's l1: 0.0131787	valid_1's l1: 0.440116
+[3500]	training's l1: 0.00730514	valid_1's l1: 0.43984
+[4000]	training's l1: 0.00408007	valid_1's l1: 0.439651
+[4500]	training's l1: 0.00232258	valid_1's l1: 0.43959
+[5000]	training's l1: 0.00134264	valid_1's l1: 0.439545
+[5500]	training's l1: 0.000791591	valid_1's l1: 0.439531
+[6000]	training's l1: 0.000476033	valid_1's l1: 0.439522
+[6500]	training's l1: 0.00028443	valid_1's l1: 0.439512
+[7000]	training's l1: 0.000173112	valid_1's l1: 0.439508
+[7500]	training's l1: 0.000106785	valid_1's l1: 0.439506
+[8000]	training's l1: 6.63533e-05	valid_1's l1: 0.439505
+[8500]	training's l1: 4.14306e-05	valid_1's l1: 0.439504
+Early stopping, best iteration is:
+[8671]	training's l1: 3.52322e-05	valid_1's l1: 0.439503
+Fold 8 started at Fri Aug  9 12:14:39 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.266269	valid_1's l1: 0.509084
+[1000]	training's l1: 0.12154	valid_1's l1: 0.466349
+[1500]	training's l1: 0.0680447	valid_1's l1: 0.458068
+[2000]	training's l1: 0.0406454	valid_1's l1: 0.454339
+[2500]	training's l1: 0.0244587	valid_1's l1: 0.452662
+[3000]	training's l1: 0.0175464	valid_1's l1: 0.452209
+[3500]	training's l1: 0.0105856	valid_1's l1: 0.451783
+[4000]	training's l1: 0.00607417	valid_1's l1: 0.451497
+[4500]	training's l1: 0.00343912	valid_1's l1: 0.451346
+[5000]	training's l1: 0.00200247	valid_1's l1: 0.451278
+[5500]	training's l1: 0.00118622	valid_1's l1: 0.451234
+[6000]	training's l1: 0.00069893	valid_1's l1: 0.451219
+[6500]	training's l1: 0.000420868	valid_1's l1: 0.451213
+[7000]	training's l1: 0.000257485	valid_1's l1: 0.451205
+[7500]	training's l1: 0.000159246	valid_1's l1: 0.451202
+[8000]	training's l1: 9.93516e-05	valid_1's l1: 0.451201
+[8500]	training's l1: 6.27681e-05	valid_1's l1: 0.451199
+[9000]	training's l1: 3.96119e-05	valid_1's l1: 0.451198
+[9500]	training's l1: 2.55087e-05	valid_1's l1: 0.451198
+[10000]	training's l1: 1.64732e-05	valid_1's l1: 0.451197
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 1.64732e-05	valid_1's l1: 0.451197
+CV mean score: -0.8140, std: 0.0198.
+Training of type 2JHN
+Fold 1 started at Fri Aug  9 12:15:44 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.182122	valid_1's l1: 0.260343
+[1000]	training's l1: 0.113998	valid_1's l1: 0.235263
+[1500]	training's l1: 0.0792573	valid_1's l1: 0.227154
+[2000]	training's l1: 0.0574564	valid_1's l1: 0.223268
+[2500]	training's l1: 0.0424621	valid_1's l1: 0.221264
+[3000]	training's l1: 0.0314793	valid_1's l1: 0.219865
+[3500]	training's l1: 0.0235731	valid_1's l1: 0.219204
+[4000]	training's l1: 0.0177357	valid_1's l1: 0.218684
+[4500]	training's l1: 0.0132342	valid_1's l1: 0.218356
+[5000]	training's l1: 0.00994368	valid_1's l1: 0.218143
+[5500]	training's l1: 0.00749853	valid_1's l1: 0.217927
+[6000]	training's l1: 0.00563763	valid_1's l1: 0.217804
+[6500]	training's l1: 0.00433992	valid_1's l1: 0.217725
+[7000]	training's l1: 0.00330066	valid_1's l1: 0.217658
+[7500]	training's l1: 0.00255231	valid_1's l1: 0.217624
+[8000]	training's l1: 0.0019455	valid_1's l1: 0.217597
+[8500]	training's l1: 0.00149793	valid_1's l1: 0.217575
+[9000]	training's l1: 0.0011572	valid_1's l1: 0.217561
+[9500]	training's l1: 0.000890453	valid_1's l1: 0.217548
+[10000]	training's l1: 0.000693968	valid_1's l1: 0.217539
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.000693968	valid_1's l1: 0.217539
+Fold 2 started at Fri Aug  9 12:17:24 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.180885	valid_1's l1: 0.266168
+[1000]	training's l1: 0.114429	valid_1's l1: 0.24024
+[1500]	training's l1: 0.0804706	valid_1's l1: 0.23315
+[2000]	training's l1: 0.0584717	valid_1's l1: 0.229037
+[2500]	training's l1: 0.0437316	valid_1's l1: 0.226898
+[3000]	training's l1: 0.0327073	valid_1's l1: 0.225684
+[3500]	training's l1: 0.0245283	valid_1's l1: 0.224745
+[4000]	training's l1: 0.018504	valid_1's l1: 0.224149
+[4500]	training's l1: 0.0137297	valid_1's l1: 0.223775
+[5000]	training's l1: 0.0102714	valid_1's l1: 0.223495
+[5500]	training's l1: 0.00776173	valid_1's l1: 0.22333
+[6000]	training's l1: 0.00587807	valid_1's l1: 0.223217
+[6500]	training's l1: 0.0044621	valid_1's l1: 0.223137
+[7000]	training's l1: 0.0034067	valid_1's l1: 0.22308
+[7500]	training's l1: 0.00261048	valid_1's l1: 0.223047
+[8000]	training's l1: 0.00199817	valid_1's l1: 0.223014
+[8500]	training's l1: 0.00153603	valid_1's l1: 0.22299
+[9000]	training's l1: 0.001186	valid_1's l1: 0.222975
+[9500]	training's l1: 0.000918594	valid_1's l1: 0.222966
+[10000]	training's l1: 0.000707937	valid_1's l1: 0.222961
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.000707937	valid_1's l1: 0.222961
+Fold 3 started at Fri Aug  9 12:19:06 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.184729	valid_1's l1: 0.265092
+[1000]	training's l1: 0.117359	valid_1's l1: 0.239687
+[1500]	training's l1: 0.0822215	valid_1's l1: 0.231282
+[2000]	training's l1: 0.0598865	valid_1's l1: 0.22721
+[2500]	training's l1: 0.0443266	valid_1's l1: 0.224928
+[3000]	training's l1: 0.0330148	valid_1's l1: 0.223739
+[3500]	training's l1: 0.0246263	valid_1's l1: 0.222811
+[4000]	training's l1: 0.0186549	valid_1's l1: 0.222303
+[4500]	training's l1: 0.0139731	valid_1's l1: 0.221926
+[5000]	training's l1: 0.0105505	valid_1's l1: 0.221683
+[5500]	training's l1: 0.00792193	valid_1's l1: 0.221517
+[6000]	training's l1: 0.00597542	valid_1's l1: 0.221407
+[6500]	training's l1: 0.00456416	valid_1's l1: 0.221313
+[7000]	training's l1: 0.00348216	valid_1's l1: 0.221258
+[7500]	training's l1: 0.00264371	valid_1's l1: 0.22122
+[8000]	training's l1: 0.00202753	valid_1's l1: 0.221188
+[8500]	training's l1: 0.00156123	valid_1's l1: 0.221167
+[9000]	training's l1: 0.00120807	valid_1's l1: 0.221148
+[9500]	training's l1: 0.000940763	valid_1's l1: 0.221138
+[10000]	training's l1: 0.000730637	valid_1's l1: 0.22113
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.000730637	valid_1's l1: 0.22113
+Fold 4 started at Fri Aug  9 12:20:46 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.181592	valid_1's l1: 0.261638
+[1000]	training's l1: 0.114482	valid_1's l1: 0.23665
+[1500]	training's l1: 0.0808148	valid_1's l1: 0.2292
+[2000]	training's l1: 0.0590853	valid_1's l1: 0.225328
+[2500]	training's l1: 0.0437057	valid_1's l1: 0.222915
+[3000]	training's l1: 0.0325185	valid_1's l1: 0.221605
+[3500]	training's l1: 0.0244475	valid_1's l1: 0.220893
+[4000]	training's l1: 0.0185845	valid_1's l1: 0.220394
+[4500]	training's l1: 0.0140256	valid_1's l1: 0.220033
+[5000]	training's l1: 0.0105881	valid_1's l1: 0.219761
+[5500]	training's l1: 0.00792598	valid_1's l1: 0.219591
+[6000]	training's l1: 0.00600055	valid_1's l1: 0.219461
+[6500]	training's l1: 0.0045622	valid_1's l1: 0.219378
+[7000]	training's l1: 0.00345338	valid_1's l1: 0.219327
+[7500]	training's l1: 0.00265565	valid_1's l1: 0.219269
+[8000]	training's l1: 0.00204478	valid_1's l1: 0.219229
+[8500]	training's l1: 0.00158428	valid_1's l1: 0.219207
+[9000]	training's l1: 0.00121472	valid_1's l1: 0.219189
+[9500]	training's l1: 0.000934254	valid_1's l1: 0.219181
+[10000]	training's l1: 0.00072132	valid_1's l1: 0.219174
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.00072132	valid_1's l1: 0.219174
+Fold 5 started at Fri Aug  9 12:22:27 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.18214	valid_1's l1: 0.262799
+[1000]	training's l1: 0.114122	valid_1's l1: 0.235998
+[1500]	training's l1: 0.0806874	valid_1's l1: 0.2279
+[2000]	training's l1: 0.0586758	valid_1's l1: 0.223948
+[2500]	training's l1: 0.0432548	valid_1's l1: 0.221802
+[3000]	training's l1: 0.0324534	valid_1's l1: 0.220591
+[3500]	training's l1: 0.0244334	valid_1's l1: 0.219795
+[4000]	training's l1: 0.0183064	valid_1's l1: 0.219287
+[4500]	training's l1: 0.0137093	valid_1's l1: 0.218894
+[5000]	training's l1: 0.0103195	valid_1's l1: 0.21869
+[5500]	training's l1: 0.00782446	valid_1's l1: 0.218558
+[6000]	training's l1: 0.00596479	valid_1's l1: 0.218437
+[6500]	training's l1: 0.00454342	valid_1's l1: 0.218335
+[7000]	training's l1: 0.003457	valid_1's l1: 0.218297
+[7500]	training's l1: 0.00264769	valid_1's l1: 0.218265
+[8000]	training's l1: 0.00203996	valid_1's l1: 0.218235
+[8500]	training's l1: 0.00157593	valid_1's l1: 0.218211
+[9000]	training's l1: 0.00121512	valid_1's l1: 0.218197
+[9500]	training's l1: 0.000937416	valid_1's l1: 0.218187
+[10000]	training's l1: 0.000727197	valid_1's l1: 0.218179
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.000727197	valid_1's l1: 0.218179
+Fold 6 started at Fri Aug  9 12:24:07 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.181225	valid_1's l1: 0.261453
+[1000]	training's l1: 0.112646	valid_1's l1: 0.234251
+[1500]	training's l1: 0.078854	valid_1's l1: 0.226471
+[2000]	training's l1: 0.0574761	valid_1's l1: 0.223224
+[2500]	training's l1: 0.0431898	valid_1's l1: 0.221294
+[3000]	training's l1: 0.0327542	valid_1's l1: 0.219957
+[3500]	training's l1: 0.0244092	valid_1's l1: 0.219022
+[4000]	training's l1: 0.0181441	valid_1's l1: 0.218539
+[4500]	training's l1: 0.0135415	valid_1's l1: 0.21817
+[5000]	training's l1: 0.0101925	valid_1's l1: 0.217912
+[5500]	training's l1: 0.00767093	valid_1's l1: 0.217731
+[6000]	training's l1: 0.00576888	valid_1's l1: 0.217601
+[6500]	training's l1: 0.0043832	valid_1's l1: 0.217522
+[7000]	training's l1: 0.00335662	valid_1's l1: 0.217466
+[7500]	training's l1: 0.00256049	valid_1's l1: 0.217427
+[8000]	training's l1: 0.00196569	valid_1's l1: 0.217405
+[8500]	training's l1: 0.00151228	valid_1's l1: 0.217382
+[9000]	training's l1: 0.00117083	valid_1's l1: 0.217363
+[9500]	training's l1: 0.000910749	valid_1's l1: 0.217355
+[10000]	training's l1: 0.000702615	valid_1's l1: 0.217346
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.000702615	valid_1's l1: 0.217346
+Fold 7 started at Fri Aug  9 12:25:49 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.180767	valid_1's l1: 0.269801
+[1000]	training's l1: 0.113271	valid_1's l1: 0.243553
+[1500]	training's l1: 0.0789452	valid_1's l1: 0.235121
+[2000]	training's l1: 0.0573515	valid_1's l1: 0.23108
+[2500]	training's l1: 0.0429542	valid_1's l1: 0.229209
+[3000]	training's l1: 0.0322095	valid_1's l1: 0.228041
+[3500]	training's l1: 0.0240013	valid_1's l1: 0.22717
+[4000]	training's l1: 0.0178309	valid_1's l1: 0.226586
+[4500]	training's l1: 0.013341	valid_1's l1: 0.22625
+[5000]	training's l1: 0.0100272	valid_1's l1: 0.225957
+[5500]	training's l1: 0.00755444	valid_1's l1: 0.225785
+[6000]	training's l1: 0.0057405	valid_1's l1: 0.225664
+[6500]	training's l1: 0.0043847	valid_1's l1: 0.225565
+[7000]	training's l1: 0.00331382	valid_1's l1: 0.225526
+[7500]	training's l1: 0.00253784	valid_1's l1: 0.225484
+[8000]	training's l1: 0.00195363	valid_1's l1: 0.225452
+[8500]	training's l1: 0.0014986	valid_1's l1: 0.225426
+[9000]	training's l1: 0.00115902	valid_1's l1: 0.225411
+[9500]	training's l1: 0.000897	valid_1's l1: 0.2254
+[10000]	training's l1: 0.00069627	valid_1's l1: 0.225391
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.00069627	valid_1's l1: 0.225391
+Fold 8 started at Fri Aug  9 12:27:30 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.181527	valid_1's l1: 0.262911
+[1000]	training's l1: 0.114607	valid_1's l1: 0.237954
+[1500]	training's l1: 0.0810401	valid_1's l1: 0.230044
+[2000]	training's l1: 0.0591434	valid_1's l1: 0.226147
+[2500]	training's l1: 0.0434136	valid_1's l1: 0.22422
+[3000]	training's l1: 0.0325582	valid_1's l1: 0.223046
+[3500]	training's l1: 0.0246775	valid_1's l1: 0.222218
+[4000]	training's l1: 0.0184287	valid_1's l1: 0.221719
+[4500]	training's l1: 0.0137814	valid_1's l1: 0.221378
+[5000]	training's l1: 0.0103027	valid_1's l1: 0.22111
+[5500]	training's l1: 0.00778374	valid_1's l1: 0.220908
+[6000]	training's l1: 0.00591315	valid_1's l1: 0.220794
+[6500]	training's l1: 0.004523	valid_1's l1: 0.220716
+[7000]	training's l1: 0.00346472	valid_1's l1: 0.220665
+[7500]	training's l1: 0.00264737	valid_1's l1: 0.220625
+[8000]	training's l1: 0.00201496	valid_1's l1: 0.220593
+[8500]	training's l1: 0.00155435	valid_1's l1: 0.22057
+[9000]	training's l1: 0.00119738	valid_1's l1: 0.220551
+[9500]	training's l1: 0.000925842	valid_1's l1: 0.220538
+[10000]	training's l1: 0.000719129	valid_1's l1: 0.220532
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.000719129	valid_1's l1: 0.220532
+CV mean score: -1.5129, std: 0.0119.
+Training of type 2JHC
+Fold 1 started at Fri Aug  9 12:29:32 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.523925	valid_1's l1: 0.549961
+[1000]	training's l1: 0.372127	valid_1's l1: 0.42406
+[1500]	training's l1: 0.306064	valid_1's l1: 0.377809
+[2000]	training's l1: 0.262995	valid_1's l1: 0.35111
+[2500]	training's l1: 0.232541	valid_1's l1: 0.334129
+[3000]	training's l1: 0.2081	valid_1's l1: 0.321675
+[3500]	training's l1: 0.188089	valid_1's l1: 0.31229
+[4000]	training's l1: 0.170986	valid_1's l1: 0.304867
+[4500]	training's l1: 0.156495	valid_1's l1: 0.299118
+[5000]	training's l1: 0.143866	valid_1's l1: 0.294543
+[5500]	training's l1: 0.132874	valid_1's l1: 0.290749
+[6000]	training's l1: 0.122764	valid_1's l1: 0.287397
+[6500]	training's l1: 0.113933	valid_1's l1: 0.284747
+[7000]	training's l1: 0.106162	valid_1's l1: 0.282526
+[7500]	training's l1: 0.099053	valid_1's l1: 0.280487
+[8000]	training's l1: 0.092499	valid_1's l1: 0.27879
+[8500]	training's l1: 0.0866617	valid_1's l1: 0.277391
+[9000]	training's l1: 0.0812681	valid_1's l1: 0.276129
+[9500]	training's l1: 0.0762858	valid_1's l1: 0.274948
+[10000]	training's l1: 0.0717737	valid_1's l1: 0.273933
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0717737	valid_1's l1: 0.273933
+Fold 2 started at Fri Aug  9 12:42:36 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.519203	valid_1's l1: 0.544955
+[1000]	training's l1: 0.37035	valid_1's l1: 0.421926
+[1500]	training's l1: 0.305369	valid_1's l1: 0.3758
+[2000]	training's l1: 0.26299	valid_1's l1: 0.349554
+[2500]	training's l1: 0.232322	valid_1's l1: 0.332311
+[3000]	training's l1: 0.207866	valid_1's l1: 0.319961
+[3500]	training's l1: 0.188079	valid_1's l1: 0.310988
+[4000]	training's l1: 0.171426	valid_1's l1: 0.303919
+[4500]	training's l1: 0.157223	valid_1's l1: 0.29847
+[5000]	training's l1: 0.144791	valid_1's l1: 0.294008
+[5500]	training's l1: 0.133758	valid_1's l1: 0.290207
+[6000]	training's l1: 0.12428	valid_1's l1: 0.287251
+[6500]	training's l1: 0.115428	valid_1's l1: 0.284519
+[7000]	training's l1: 0.107455	valid_1's l1: 0.282245
+[7500]	training's l1: 0.100161	valid_1's l1: 0.280228
+[8000]	training's l1: 0.0935631	valid_1's l1: 0.278527
+[8500]	training's l1: 0.0876016	valid_1's l1: 0.277055
+[9000]	training's l1: 0.0820101	valid_1's l1: 0.275709
+[9500]	training's l1: 0.0770032	valid_1's l1: 0.274567
+[10000]	training's l1: 0.0722496	valid_1's l1: 0.2735
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0722496	valid_1's l1: 0.2735
+Fold 3 started at Fri Aug  9 12:55:39 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.52487	valid_1's l1: 0.545511
+[1000]	training's l1: 0.374517	valid_1's l1: 0.423917
+[1500]	training's l1: 0.306654	valid_1's l1: 0.376815
+[2000]	training's l1: 0.264091	valid_1's l1: 0.350549
+[2500]	training's l1: 0.232244	valid_1's l1: 0.333216
+[3000]	training's l1: 0.20753	valid_1's l1: 0.320904
+[3500]	training's l1: 0.187724	valid_1's l1: 0.312085
+[4000]	training's l1: 0.170973	valid_1's l1: 0.304778
+[4500]	training's l1: 0.156541	valid_1's l1: 0.29914
+[5000]	training's l1: 0.143958	valid_1's l1: 0.294649
+[5500]	training's l1: 0.132823	valid_1's l1: 0.290944
+[6000]	training's l1: 0.123162	valid_1's l1: 0.287916
+[6500]	training's l1: 0.114255	valid_1's l1: 0.285243
+[7000]	training's l1: 0.106365	valid_1's l1: 0.283027
+[7500]	training's l1: 0.099265	valid_1's l1: 0.281175
+[8000]	training's l1: 0.0926097	valid_1's l1: 0.279497
+[8500]	training's l1: 0.0867169	valid_1's l1: 0.278013
+[9000]	training's l1: 0.0812428	valid_1's l1: 0.276665
+[9500]	training's l1: 0.0761866	valid_1's l1: 0.275501
+[10000]	training's l1: 0.071518	valid_1's l1: 0.274453
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.071518	valid_1's l1: 0.274453
+Fold 4 started at Fri Aug  9 13:08:14 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.514895	valid_1's l1: 0.545646
+[1000]	training's l1: 0.369415	valid_1's l1: 0.425075
+[1500]	training's l1: 0.305097	valid_1's l1: 0.379357
+[2000]	training's l1: 0.262707	valid_1's l1: 0.352771
+[2500]	training's l1: 0.232396	valid_1's l1: 0.335683
+[3000]	training's l1: 0.208015	valid_1's l1: 0.323206
+[3500]	training's l1: 0.188691	valid_1's l1: 0.314228
+[4000]	training's l1: 0.171713	valid_1's l1: 0.306877
+[4500]	training's l1: 0.157691	valid_1's l1: 0.301433
+[5000]	training's l1: 0.144938	valid_1's l1: 0.296684
+[5500]	training's l1: 0.133919	valid_1's l1: 0.292977
+[6000]	training's l1: 0.124182	valid_1's l1: 0.289834
+[6500]	training's l1: 0.115312	valid_1's l1: 0.287132
+[7000]	training's l1: 0.107262	valid_1's l1: 0.284773
+[7500]	training's l1: 0.100114	valid_1's l1: 0.282805
+[8000]	training's l1: 0.0934039	valid_1's l1: 0.281007
+[8500]	training's l1: 0.0873435	valid_1's l1: 0.279468
+[9000]	training's l1: 0.0818187	valid_1's l1: 0.278078
+[9500]	training's l1: 0.0766731	valid_1's l1: 0.276874
+[10000]	training's l1: 0.0720948	valid_1's l1: 0.275843
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0720948	valid_1's l1: 0.275843
+Fold 5 started at Fri Aug  9 13:20:41 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.520072	valid_1's l1: 0.54197
+[1000]	training's l1: 0.372224	valid_1's l1: 0.42071
+[1500]	training's l1: 0.305739	valid_1's l1: 0.374903
+[2000]	training's l1: 0.262862	valid_1's l1: 0.348755
+[2500]	training's l1: 0.2319	valid_1's l1: 0.331874
+[3000]	training's l1: 0.20787	valid_1's l1: 0.320095
+[3500]	training's l1: 0.188087	valid_1's l1: 0.311361
+[4000]	training's l1: 0.171018	valid_1's l1: 0.304105
+[4500]	training's l1: 0.156699	valid_1's l1: 0.298658
+[5000]	training's l1: 0.143919	valid_1's l1: 0.294095
+[5500]	training's l1: 0.133238	valid_1's l1: 0.290474
+[6000]	training's l1: 0.123432	valid_1's l1: 0.287396
+[6500]	training's l1: 0.114923	valid_1's l1: 0.284824
+[7000]	training's l1: 0.106989	valid_1's l1: 0.28256
+[7500]	training's l1: 0.0997216	valid_1's l1: 0.280518
+[8000]	training's l1: 0.0930675	valid_1's l1: 0.278857
+[8500]	training's l1: 0.0871403	valid_1's l1: 0.277448
+[9000]	training's l1: 0.0816066	valid_1's l1: 0.276114
+[9500]	training's l1: 0.0765538	valid_1's l1: 0.274995
+[10000]	training's l1: 0.0719434	valid_1's l1: 0.274
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0719434	valid_1's l1: 0.274
+Fold 6 started at Fri Aug  9 13:33:26 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.519498	valid_1's l1: 0.54428
+[1000]	training's l1: 0.371225	valid_1's l1: 0.421945
+[1500]	training's l1: 0.304363	valid_1's l1: 0.375201
+[2000]	training's l1: 0.261444	valid_1's l1: 0.349022
+[2500]	training's l1: 0.231311	valid_1's l1: 0.332553
+[3000]	training's l1: 0.207051	valid_1's l1: 0.320363
+[3500]	training's l1: 0.187333	valid_1's l1: 0.311654
+[4000]	training's l1: 0.170381	valid_1's l1: 0.304637
+[4500]	training's l1: 0.156265	valid_1's l1: 0.299153
+[5000]	training's l1: 0.143844	valid_1's l1: 0.29467
+[5500]	training's l1: 0.132778	valid_1's l1: 0.290972
+[6000]	training's l1: 0.123125	valid_1's l1: 0.288016
+[6500]	training's l1: 0.114294	valid_1's l1: 0.285378
+[7000]	training's l1: 0.106551	valid_1's l1: 0.283122
+[7500]	training's l1: 0.0995003	valid_1's l1: 0.281208
+[8000]	training's l1: 0.0929258	valid_1's l1: 0.279404
+[8500]	training's l1: 0.0868786	valid_1's l1: 0.27789
+[9000]	training's l1: 0.0813964	valid_1's l1: 0.276504
+[9500]	training's l1: 0.0763229	valid_1's l1: 0.27536
+[10000]	training's l1: 0.0717127	valid_1's l1: 0.27437
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0717127	valid_1's l1: 0.27437
+Fold 7 started at Fri Aug  9 13:45:48 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.52937	valid_1's l1: 0.553467
+[1000]	training's l1: 0.372848	valid_1's l1: 0.425014
+[1500]	training's l1: 0.306612	valid_1's l1: 0.378052
+[2000]	training's l1: 0.263713	valid_1's l1: 0.351258
+[2500]	training's l1: 0.232637	valid_1's l1: 0.333856
+[3000]	training's l1: 0.208667	valid_1's l1: 0.321891
+[3500]	training's l1: 0.188466	valid_1's l1: 0.312613
+[4000]	training's l1: 0.171355	valid_1's l1: 0.305314
+[4500]	training's l1: 0.157319	valid_1's l1: 0.299721
+[5000]	training's l1: 0.144608	valid_1's l1: 0.295001
+[5500]	training's l1: 0.133661	valid_1's l1: 0.291352
+[6000]	training's l1: 0.124099	valid_1's l1: 0.288239
+[6500]	training's l1: 0.115287	valid_1's l1: 0.285547
+[7000]	training's l1: 0.107502	valid_1's l1: 0.2833
+[7500]	training's l1: 0.100152	valid_1's l1: 0.281374
+[8000]	training's l1: 0.0935267	valid_1's l1: 0.279618
+[8500]	training's l1: 0.0874546	valid_1's l1: 0.278054
+[9000]	training's l1: 0.0820543	valid_1's l1: 0.276837
+[9500]	training's l1: 0.0769911	valid_1's l1: 0.275684
+[10000]	training's l1: 0.072294	valid_1's l1: 0.274602
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.072294	valid_1's l1: 0.274602
+Fold 8 started at Fri Aug  9 13:58:11 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.521611	valid_1's l1: 0.547264
+[1000]	training's l1: 0.370133	valid_1's l1: 0.424214
+[1500]	training's l1: 0.304742	valid_1's l1: 0.378529
+[2000]	training's l1: 0.261762	valid_1's l1: 0.352041
+[2500]	training's l1: 0.231695	valid_1's l1: 0.335613
+[3000]	training's l1: 0.207828	valid_1's l1: 0.323871
+[3500]	training's l1: 0.188155	valid_1's l1: 0.31488
+[4000]	training's l1: 0.172242	valid_1's l1: 0.308249
+[4500]	training's l1: 0.158122	valid_1's l1: 0.302767
+[5000]	training's l1: 0.145723	valid_1's l1: 0.298187
+[5500]	training's l1: 0.134792	valid_1's l1: 0.294348
+[6000]	training's l1: 0.125065	valid_1's l1: 0.291279
+[6500]	training's l1: 0.116346	valid_1's l1: 0.288681
+[7000]	training's l1: 0.108223	valid_1's l1: 0.286304
+[7500]	training's l1: 0.100709	valid_1's l1: 0.284127
+[8000]	training's l1: 0.0938955	valid_1's l1: 0.282265
+[8500]	training's l1: 0.0878716	valid_1's l1: 0.280717
+[9000]	training's l1: 0.0824367	valid_1's l1: 0.279346
+[9500]	training's l1: 0.0772632	valid_1's l1: 0.278095
+[10000]	training's l1: 0.0726173	valid_1's l1: 0.277099
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0726173	valid_1's l1: 0.277099
+CV mean score: -1.2920, std: 0.0040.
+Training of type 3JHH
+Fold 1 started at Fri Aug  9 14:11:20 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.199944	valid_1's l1: 0.237963
+[1000]	training's l1: 0.144934	valid_1's l1: 0.206158
+[1500]	training's l1: 0.113632	valid_1's l1: 0.192035
+[2000]	training's l1: 0.0935292	valid_1's l1: 0.184689
+[2500]	training's l1: 0.0785889	valid_1's l1: 0.179785
+[3000]	training's l1: 0.066477	valid_1's l1: 0.176385
+[3500]	training's l1: 0.0568233	valid_1's l1: 0.173993
+[4000]	training's l1: 0.0487946	valid_1's l1: 0.172177
+[4500]	training's l1: 0.04218	valid_1's l1: 0.170912
+[5000]	training's l1: 0.0365543	valid_1's l1: 0.169813
+[5500]	training's l1: 0.0317711	valid_1's l1: 0.168993
+[6000]	training's l1: 0.0276667	valid_1's l1: 0.168339
+[6500]	training's l1: 0.0241948	valid_1's l1: 0.167791
+[7000]	training's l1: 0.0211931	valid_1's l1: 0.167358
+[7500]	training's l1: 0.018523	valid_1's l1: 0.166982
+[8000]	training's l1: 0.016265	valid_1's l1: 0.166666
+[8500]	training's l1: 0.0143	valid_1's l1: 0.16639
+[9000]	training's l1: 0.0126385	valid_1's l1: 0.166179
+[9500]	training's l1: 0.0111817	valid_1's l1: 0.165997
+[10000]	training's l1: 0.00991007	valid_1's l1: 0.165837
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.00991007	valid_1's l1: 0.165837
+Fold 2 started at Fri Aug  9 14:18:59 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.199818	valid_1's l1: 0.237832
+[1000]	training's l1: 0.143816	valid_1's l1: 0.204763
+[1500]	training's l1: 0.113433	valid_1's l1: 0.191549
+[2000]	training's l1: 0.0928221	valid_1's l1: 0.184086
+[2500]	training's l1: 0.077562	valid_1's l1: 0.179275
+[3000]	training's l1: 0.06566	valid_1's l1: 0.176068
+[3500]	training's l1: 0.0560495	valid_1's l1: 0.173635
+[4000]	training's l1: 0.0483648	valid_1's l1: 0.172019
+[4500]	training's l1: 0.0419094	valid_1's l1: 0.170689
+[5000]	training's l1: 0.0364157	valid_1's l1: 0.169652
+[5500]	training's l1: 0.0316555	valid_1's l1: 0.168827
+[6000]	training's l1: 0.0276438	valid_1's l1: 0.168208
+[6500]	training's l1: 0.0240497	valid_1's l1: 0.167682
+[7000]	training's l1: 0.0210729	valid_1's l1: 0.167238
+[7500]	training's l1: 0.0184723	valid_1's l1: 0.166872
+[8000]	training's l1: 0.016231	valid_1's l1: 0.166579
+[8500]	training's l1: 0.0142861	valid_1's l1: 0.166361
+[9000]	training's l1: 0.0126016	valid_1's l1: 0.166132
+[9500]	training's l1: 0.0111144	valid_1's l1: 0.165963
+[10000]	training's l1: 0.00985905	valid_1's l1: 0.16582
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.00985905	valid_1's l1: 0.16582
+Fold 3 started at Fri Aug  9 14:26:38 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.200153	valid_1's l1: 0.238418
+[1000]	training's l1: 0.144474	valid_1's l1: 0.205662
+[1500]	training's l1: 0.113633	valid_1's l1: 0.191867
+[2000]	training's l1: 0.092954	valid_1's l1: 0.184503
+[2500]	training's l1: 0.0778224	valid_1's l1: 0.179817
+[3000]	training's l1: 0.0661029	valid_1's l1: 0.176663
+[3500]	training's l1: 0.0565191	valid_1's l1: 0.174348
+[4000]	training's l1: 0.048537	valid_1's l1: 0.172511
+[4500]	training's l1: 0.0418552	valid_1's l1: 0.171204
+[5000]	training's l1: 0.0362158	valid_1's l1: 0.17016
+[5500]	training's l1: 0.0315279	valid_1's l1: 0.169332
+[6000]	training's l1: 0.0274489	valid_1's l1: 0.168686
+[6500]	training's l1: 0.0239594	valid_1's l1: 0.168169
+[7000]	training's l1: 0.0209273	valid_1's l1: 0.16773
+[7500]	training's l1: 0.0183635	valid_1's l1: 0.167399
+[8000]	training's l1: 0.0161788	valid_1's l1: 0.167105
+[8500]	training's l1: 0.0142648	valid_1's l1: 0.16687
+[9000]	training's l1: 0.0125992	valid_1's l1: 0.16667
+[9500]	training's l1: 0.0111321	valid_1's l1: 0.166486
+[10000]	training's l1: 0.00986553	valid_1's l1: 0.166347
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.00986553	valid_1's l1: 0.166347
+Fold 4 started at Fri Aug  9 14:34:18 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.200498	valid_1's l1: 0.241029
+[1000]	training's l1: 0.145222	valid_1's l1: 0.208128
+[1500]	training's l1: 0.113828	valid_1's l1: 0.193757
+[2000]	training's l1: 0.0932388	valid_1's l1: 0.185984
+[2500]	training's l1: 0.0778339	valid_1's l1: 0.180972
+[3000]	training's l1: 0.0659966	valid_1's l1: 0.177738
+[3500]	training's l1: 0.0565937	valid_1's l1: 0.175487
+[4000]	training's l1: 0.0486638	valid_1's l1: 0.173757
+[4500]	training's l1: 0.041974	valid_1's l1: 0.172395
+[5000]	training's l1: 0.0363626	valid_1's l1: 0.171289
+[5500]	training's l1: 0.031657	valid_1's l1: 0.170496
+[6000]	training's l1: 0.0276329	valid_1's l1: 0.169813
+[6500]	training's l1: 0.0241122	valid_1's l1: 0.169235
+[7000]	training's l1: 0.0210697	valid_1's l1: 0.168789
+[7500]	training's l1: 0.0185115	valid_1's l1: 0.168456
+[8000]	training's l1: 0.0162642	valid_1's l1: 0.168165
+[8500]	training's l1: 0.0143452	valid_1's l1: 0.167908
+[9000]	training's l1: 0.012644	valid_1's l1: 0.167693
+[9500]	training's l1: 0.0111865	valid_1's l1: 0.167514
+[10000]	training's l1: 0.00990937	valid_1's l1: 0.167367
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.00990937	valid_1's l1: 0.167367
+Fold 5 started at Fri Aug  9 14:42:04 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.199996	valid_1's l1: 0.239867
+[1000]	training's l1: 0.144926	valid_1's l1: 0.207979
+[1500]	training's l1: 0.114054	valid_1's l1: 0.193939
+[2000]	training's l1: 0.093755	valid_1's l1: 0.18656
+[2500]	training's l1: 0.0783758	valid_1's l1: 0.181811
+[3000]	training's l1: 0.0663894	valid_1's l1: 0.178427
+[3500]	training's l1: 0.0566681	valid_1's l1: 0.176012
+[4000]	training's l1: 0.0487743	valid_1's l1: 0.174199
+[4500]	training's l1: 0.0420386	valid_1's l1: 0.172867
+[5000]	training's l1: 0.0364994	valid_1's l1: 0.171895
+[5500]	training's l1: 0.0317513	valid_1's l1: 0.171078
+[6000]	training's l1: 0.0276261	valid_1's l1: 0.17039
+[6500]	training's l1: 0.0241398	valid_1's l1: 0.16984
+[7000]	training's l1: 0.0211302	valid_1's l1: 0.169393
+[7500]	training's l1: 0.0185372	valid_1's l1: 0.169054
+[8000]	training's l1: 0.0163104	valid_1's l1: 0.168769
+[8500]	training's l1: 0.0143836	valid_1's l1: 0.168517
+[9000]	training's l1: 0.0126778	valid_1's l1: 0.168295
+[9500]	training's l1: 0.0112367	valid_1's l1: 0.168119
+[10000]	training's l1: 0.00996438	valid_1's l1: 0.167983
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.00996438	valid_1's l1: 0.167983
+Fold 6 started at Fri Aug  9 14:49:43 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.199857	valid_1's l1: 0.238653
+[1000]	training's l1: 0.144595	valid_1's l1: 0.206259
+[1500]	training's l1: 0.11431	valid_1's l1: 0.192715
+[2000]	training's l1: 0.0936164	valid_1's l1: 0.185141
+[2500]	training's l1: 0.078062	valid_1's l1: 0.180307
+[3000]	training's l1: 0.0663029	valid_1's l1: 0.177127
+[3500]	training's l1: 0.0566989	valid_1's l1: 0.174757
+[4000]	training's l1: 0.0489618	valid_1's l1: 0.173021
+[4500]	training's l1: 0.0423729	valid_1's l1: 0.171759
+[5000]	training's l1: 0.0368978	valid_1's l1: 0.170676
+[5500]	training's l1: 0.0321081	valid_1's l1: 0.169833
+[6000]	training's l1: 0.0280799	valid_1's l1: 0.169181
+[6500]	training's l1: 0.0245692	valid_1's l1: 0.168643
+[7000]	training's l1: 0.0214929	valid_1's l1: 0.168182
+[7500]	training's l1: 0.018872	valid_1's l1: 0.1678
+[8000]	training's l1: 0.0165803	valid_1's l1: 0.167493
+[8500]	training's l1: 0.0146269	valid_1's l1: 0.16724
+[9000]	training's l1: 0.0129082	valid_1's l1: 0.167043
+[9500]	training's l1: 0.0113849	valid_1's l1: 0.166856
+[10000]	training's l1: 0.0101028	valid_1's l1: 0.166712
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0101028	valid_1's l1: 0.166712
+Fold 7 started at Fri Aug  9 14:57:26 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.200769	valid_1's l1: 0.24006
+[1000]	training's l1: 0.144919	valid_1's l1: 0.206981
+[1500]	training's l1: 0.114294	valid_1's l1: 0.193481
+[2000]	training's l1: 0.0938782	valid_1's l1: 0.186165
+[2500]	training's l1: 0.0781877	valid_1's l1: 0.18125
+[3000]	training's l1: 0.0662497	valid_1's l1: 0.177918
+[3500]	training's l1: 0.05674	valid_1's l1: 0.175651
+[4000]	training's l1: 0.0487297	valid_1's l1: 0.173847
+[4500]	training's l1: 0.0422651	valid_1's l1: 0.172554
+[5000]	training's l1: 0.0367024	valid_1's l1: 0.171554
+[5500]	training's l1: 0.0318994	valid_1's l1: 0.170746
+[6000]	training's l1: 0.0278249	valid_1's l1: 0.170101
+[6500]	training's l1: 0.0243093	valid_1's l1: 0.169585
+[7000]	training's l1: 0.0213341	valid_1's l1: 0.169154
+[7500]	training's l1: 0.0187715	valid_1's l1: 0.168787
+[8000]	training's l1: 0.0164853	valid_1's l1: 0.168472
+[8500]	training's l1: 0.0145199	valid_1's l1: 0.168223
+[9000]	training's l1: 0.0128094	valid_1's l1: 0.168008
+[9500]	training's l1: 0.0113411	valid_1's l1: 0.16783
+[10000]	training's l1: 0.0100625	valid_1's l1: 0.167699
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0100625	valid_1's l1: 0.167699
+Fold 8 started at Fri Aug  9 15:05:00 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.201546	valid_1's l1: 0.24014
+[1000]	training's l1: 0.144157	valid_1's l1: 0.206121
+[1500]	training's l1: 0.114039	valid_1's l1: 0.192309
+[2000]	training's l1: 0.0933446	valid_1's l1: 0.18479
+[2500]	training's l1: 0.0780897	valid_1's l1: 0.179745
+[3000]	training's l1: 0.0660715	valid_1's l1: 0.176502
+[3500]	training's l1: 0.0565058	valid_1's l1: 0.174159
+[4000]	training's l1: 0.0486689	valid_1's l1: 0.172492
+[4500]	training's l1: 0.0420369	valid_1's l1: 0.171173
+[5000]	training's l1: 0.0364792	valid_1's l1: 0.170216
+[5500]	training's l1: 0.0318169	valid_1's l1: 0.169386
+[6000]	training's l1: 0.0277905	valid_1's l1: 0.168771
+[6500]	training's l1: 0.0242682	valid_1's l1: 0.168194
+[7000]	training's l1: 0.0212368	valid_1's l1: 0.167748
+[7500]	training's l1: 0.018631	valid_1's l1: 0.167429
+[8000]	training's l1: 0.0163271	valid_1's l1: 0.167119
+[8500]	training's l1: 0.0143975	valid_1's l1: 0.166883
+[9000]	training's l1: 0.0126983	valid_1's l1: 0.166663
+[9500]	training's l1: 0.0112218	valid_1's l1: 0.1665
+[10000]	training's l1: 0.00993347	valid_1's l1: 0.166354
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.00993347	valid_1's l1: 0.166354
+CV mean score: -1.7912, std: 0.0047.
+Training of type 3JHC
+Fold 1 started at Fri Aug  9 15:13:36 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.543381	valid_1's l1: 0.560185
+[1000]	training's l1: 0.447588	valid_1's l1: 0.477949
+[1500]	training's l1: 0.391659	valid_1's l1: 0.433707
+[2000]	training's l1: 0.353646	valid_1's l1: 0.405722
+[2500]	training's l1: 0.325068	valid_1's l1: 0.386034
+[3000]	training's l1: 0.302892	valid_1's l1: 0.371899
+[3500]	training's l1: 0.283752	valid_1's l1: 0.360185
+[4000]	training's l1: 0.267032	valid_1's l1: 0.35063
+[4500]	training's l1: 0.252433	valid_1's l1: 0.342569
+[5000]	training's l1: 0.239758	valid_1's l1: 0.33584
+[5500]	training's l1: 0.228065	valid_1's l1: 0.330141
+[6000]	training's l1: 0.217638	valid_1's l1: 0.32518
+[6500]	training's l1: 0.208201	valid_1's l1: 0.320982
+[7000]	training's l1: 0.199397	valid_1's l1: 0.317166
+[7500]	training's l1: 0.191331	valid_1's l1: 0.313864
+[8000]	training's l1: 0.18373	valid_1's l1: 0.310733
+[8500]	training's l1: 0.176483	valid_1's l1: 0.308001
+[9000]	training's l1: 0.170104	valid_1's l1: 0.305764
+[9500]	training's l1: 0.163914	valid_1's l1: 0.303577
+[10000]	training's l1: 0.157892	valid_1's l1: 0.30143
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.157892	valid_1's l1: 0.30143
+Fold 2 started at Fri Aug  9 15:26:51 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.543731	valid_1's l1: 0.564162
+[1000]	training's l1: 0.447062	valid_1's l1: 0.480711
+[1500]	training's l1: 0.392827	valid_1's l1: 0.437384
+[2000]	training's l1: 0.354697	valid_1's l1: 0.409112
+[2500]	training's l1: 0.326289	valid_1's l1: 0.389503
+[3000]	training's l1: 0.302512	valid_1's l1: 0.373655
+[3500]	training's l1: 0.283061	valid_1's l1: 0.361841
+[4000]	training's l1: 0.266249	valid_1's l1: 0.351998
+[4500]	training's l1: 0.251889	valid_1's l1: 0.34413
+[5000]	training's l1: 0.239176	valid_1's l1: 0.337465
+[5500]	training's l1: 0.2278	valid_1's l1: 0.331868
+[6000]	training's l1: 0.217685	valid_1's l1: 0.327052
+[6500]	training's l1: 0.208191	valid_1's l1: 0.322778
+[7000]	training's l1: 0.199499	valid_1's l1: 0.318866
+[7500]	training's l1: 0.191232	valid_1's l1: 0.315428
+[8000]	training's l1: 0.183848	valid_1's l1: 0.312407
+[8500]	training's l1: 0.176719	valid_1's l1: 0.309716
+[9000]	training's l1: 0.170181	valid_1's l1: 0.307188
+[9500]	training's l1: 0.163918	valid_1's l1: 0.304792
+[10000]	training's l1: 0.158174	valid_1's l1: 0.302683
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.158174	valid_1's l1: 0.302683
+Fold 3 started at Fri Aug  9 15:40:27 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.543319	valid_1's l1: 0.563185
+[1000]	training's l1: 0.445826	valid_1's l1: 0.478101
+[1500]	training's l1: 0.3921	valid_1's l1: 0.435476
+[2000]	training's l1: 0.354319	valid_1's l1: 0.407337
+[2500]	training's l1: 0.325265	valid_1's l1: 0.3874
+[3000]	training's l1: 0.301765	valid_1's l1: 0.371791
+[3500]	training's l1: 0.282297	valid_1's l1: 0.359911
+[4000]	training's l1: 0.266464	valid_1's l1: 0.351009
+[4500]	training's l1: 0.251708	valid_1's l1: 0.342767
+[5000]	training's l1: 0.238944	valid_1's l1: 0.336066
+[5500]	training's l1: 0.227658	valid_1's l1: 0.330552
+[6000]	training's l1: 0.217041	valid_1's l1: 0.32548
+[6500]	training's l1: 0.207563	valid_1's l1: 0.321096
+[7000]	training's l1: 0.198708	valid_1's l1: 0.317316
+[7500]	training's l1: 0.190504	valid_1's l1: 0.313942
+[8000]	training's l1: 0.182925	valid_1's l1: 0.31068
+[8500]	training's l1: 0.175886	valid_1's l1: 0.308016
+[9000]	training's l1: 0.169132	valid_1's l1: 0.305403
+[9500]	training's l1: 0.162955	valid_1's l1: 0.303089
+[10000]	training's l1: 0.157353	valid_1's l1: 0.301185
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.157353	valid_1's l1: 0.301185
+Fold 4 started at Fri Aug  9 15:53:59 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.545285	valid_1's l1: 0.566033
+[1000]	training's l1: 0.444631	valid_1's l1: 0.478266
+[1500]	training's l1: 0.391059	valid_1's l1: 0.43574
+[2000]	training's l1: 0.353647	valid_1's l1: 0.408097
+[2500]	training's l1: 0.325328	valid_1's l1: 0.388269
+[3000]	training's l1: 0.301943	valid_1's l1: 0.372866
+[3500]	training's l1: 0.282554	valid_1's l1: 0.360974
+[4000]	training's l1: 0.266811	valid_1's l1: 0.351923
+[4500]	training's l1: 0.252132	valid_1's l1: 0.343678
+[5000]	training's l1: 0.239428	valid_1's l1: 0.337044
+[5500]	training's l1: 0.228031	valid_1's l1: 0.331398
+[6000]	training's l1: 0.217564	valid_1's l1: 0.326376
+[6500]	training's l1: 0.20809	valid_1's l1: 0.321905
+[7000]	training's l1: 0.199499	valid_1's l1: 0.318214
+[7500]	training's l1: 0.19134	valid_1's l1: 0.314826
+[8000]	training's l1: 0.183845	valid_1's l1: 0.311744
+[8500]	training's l1: 0.176845	valid_1's l1: 0.30894
+[9000]	training's l1: 0.170171	valid_1's l1: 0.306336
+[9500]	training's l1: 0.163879	valid_1's l1: 0.303973
+[10000]	training's l1: 0.158055	valid_1's l1: 0.301849
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.158055	valid_1's l1: 0.301849
+Fold 5 started at Fri Aug  9 16:07:30 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.545726	valid_1's l1: 0.562803
+[1000]	training's l1: 0.447492	valid_1's l1: 0.477104
+[1500]	training's l1: 0.393024	valid_1's l1: 0.433753
+[2000]	training's l1: 0.355656	valid_1's l1: 0.40627
+[2500]	training's l1: 0.326918	valid_1's l1: 0.386473
+[3000]	training's l1: 0.303469	valid_1's l1: 0.371247
+[3500]	training's l1: 0.284256	valid_1's l1: 0.359495
+[4000]	training's l1: 0.267681	valid_1's l1: 0.349916
+[4500]	training's l1: 0.253166	valid_1's l1: 0.341953
+[5000]	training's l1: 0.24004	valid_1's l1: 0.335049
+[5500]	training's l1: 0.228795	valid_1's l1: 0.329543
+[6000]	training's l1: 0.218087	valid_1's l1: 0.324275
+[6500]	training's l1: 0.208692	valid_1's l1: 0.32014
+[7000]	training's l1: 0.199733	valid_1's l1: 0.316308
+[7500]	training's l1: 0.191706	valid_1's l1: 0.312927
+[8000]	training's l1: 0.184298	valid_1's l1: 0.310036
+[8500]	training's l1: 0.177268	valid_1's l1: 0.307368
+[9000]	training's l1: 0.17044	valid_1's l1: 0.304696
+[9500]	training's l1: 0.164332	valid_1's l1: 0.302525
+[10000]	training's l1: 0.158413	valid_1's l1: 0.300431
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.158413	valid_1's l1: 0.300431
+Fold 6 started at Fri Aug  9 16:21:10 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.544776	valid_1's l1: 0.561449
+[1000]	training's l1: 0.44618	valid_1's l1: 0.476042
+[1500]	training's l1: 0.392907	valid_1's l1: 0.43375
+[2000]	training's l1: 0.35619	valid_1's l1: 0.406528
+[2500]	training's l1: 0.326632	valid_1's l1: 0.385728
+[3000]	training's l1: 0.303694	valid_1's l1: 0.371158
+[3500]	training's l1: 0.284276	valid_1's l1: 0.35922
+[4000]	training's l1: 0.267741	valid_1's l1: 0.349582
+[4500]	training's l1: 0.253437	valid_1's l1: 0.341928
+[5000]	training's l1: 0.240897	valid_1's l1: 0.335396
+[5500]	training's l1: 0.229184	valid_1's l1: 0.329506
+[6000]	training's l1: 0.218589	valid_1's l1: 0.324463
+[6500]	training's l1: 0.20882	valid_1's l1: 0.319855
+[7000]	training's l1: 0.200121	valid_1's l1: 0.316044
+[7500]	training's l1: 0.191992	valid_1's l1: 0.312629
+[8000]	training's l1: 0.184227	valid_1's l1: 0.309525
+[8500]	training's l1: 0.177209	valid_1's l1: 0.306889
+[9000]	training's l1: 0.170428	valid_1's l1: 0.304342
+[9500]	training's l1: 0.16415	valid_1's l1: 0.302059
+[10000]	training's l1: 0.158306	valid_1's l1: 0.29989
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.158306	valid_1's l1: 0.29989
+Fold 7 started at Fri Aug  9 16:34:29 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.546098	valid_1's l1: 0.561263
+[1000]	training's l1: 0.447369	valid_1's l1: 0.476245
+[1500]	training's l1: 0.393462	valid_1's l1: 0.433993
+[2000]	training's l1: 0.355285	valid_1's l1: 0.40599
+[2500]	training's l1: 0.326409	valid_1's l1: 0.386263
+[3000]	training's l1: 0.302765	valid_1's l1: 0.37098
+[3500]	training's l1: 0.283378	valid_1's l1: 0.35915
+[4000]	training's l1: 0.26707	valid_1's l1: 0.349877
+[4500]	training's l1: 0.252663	valid_1's l1: 0.342013
+[5000]	training's l1: 0.239551	valid_1's l1: 0.335201
+[5500]	training's l1: 0.228044	valid_1's l1: 0.329591
+[6000]	training's l1: 0.217309	valid_1's l1: 0.324451
+[6500]	training's l1: 0.207801	valid_1's l1: 0.320061
+[7000]	training's l1: 0.19894	valid_1's l1: 0.31622
+[7500]	training's l1: 0.190668	valid_1's l1: 0.312839
+[8000]	training's l1: 0.183219	valid_1's l1: 0.310009
+[8500]	training's l1: 0.176225	valid_1's l1: 0.30738
+[9000]	training's l1: 0.169694	valid_1's l1: 0.305007
+[9500]	training's l1: 0.163476	valid_1's l1: 0.30268
+[10000]	training's l1: 0.157672	valid_1's l1: 0.300646
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.157672	valid_1's l1: 0.300646
+Fold 8 started at Fri Aug  9 16:47:47 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.543575	valid_1's l1: 0.562321
+[1000]	training's l1: 0.445896	valid_1's l1: 0.477472
+[1500]	training's l1: 0.39171	valid_1's l1: 0.434371
+[2000]	training's l1: 0.35371	valid_1's l1: 0.406065
+[2500]	training's l1: 0.325621	valid_1's l1: 0.386752
+[3000]	training's l1: 0.302128	valid_1's l1: 0.371286
+[3500]	training's l1: 0.282376	valid_1's l1: 0.359021
+[4000]	training's l1: 0.265819	valid_1's l1: 0.349281
+[4500]	training's l1: 0.251224	valid_1's l1: 0.341337
+[5000]	training's l1: 0.238518	valid_1's l1: 0.334721
+[5500]	training's l1: 0.22669	valid_1's l1: 0.329069
+[6000]	training's l1: 0.21637	valid_1's l1: 0.324148
+[6500]	training's l1: 0.207053	valid_1's l1: 0.319979
+[7000]	training's l1: 0.198409	valid_1's l1: 0.316282
+[7500]	training's l1: 0.190557	valid_1's l1: 0.313151
+[8000]	training's l1: 0.182906	valid_1's l1: 0.310126
+[8500]	training's l1: 0.175883	valid_1's l1: 0.307386
+[9000]	training's l1: 0.169271	valid_1's l1: 0.304984
+[9500]	training's l1: 0.163141	valid_1's l1: 0.302832
+[10000]	training's l1: 0.157298	valid_1's l1: 0.300661
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.157298	valid_1's l1: 0.300661
+CV mean score: -1.2003, std: 0.0028.
+Training of type 3JHN
+Fold 1 started at Fri Aug  9 17:01:14 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.133368	valid_1's l1: 0.189818
+[1000]	training's l1: 0.09046	valid_1's l1: 0.172975
+[1500]	training's l1: 0.0663314	valid_1's l1: 0.166912
+[2000]	training's l1: 0.0498963	valid_1's l1: 0.163517
+[2500]	training's l1: 0.0383145	valid_1's l1: 0.16157
+[3000]	training's l1: 0.0294845	valid_1's l1: 0.160332
+[3500]	training's l1: 0.0229776	valid_1's l1: 0.15958
+[4000]	training's l1: 0.0180244	valid_1's l1: 0.159016
+[4500]	training's l1: 0.0142814	valid_1's l1: 0.158617
+[5000]	training's l1: 0.0113941	valid_1's l1: 0.158342
+[5500]	training's l1: 0.00908454	valid_1's l1: 0.158147
+[6000]	training's l1: 0.00724921	valid_1's l1: 0.15801
+[6500]	training's l1: 0.0058358	valid_1's l1: 0.157892
+[7000]	training's l1: 0.0046917	valid_1's l1: 0.157788
+[7500]	training's l1: 0.00377655	valid_1's l1: 0.157717
+[8000]	training's l1: 0.00304418	valid_1's l1: 0.157668
+[8500]	training's l1: 0.00246983	valid_1's l1: 0.157631
+[9000]	training's l1: 0.00202145	valid_1's l1: 0.157602
+[9500]	training's l1: 0.00164729	valid_1's l1: 0.157579
+[10000]	training's l1: 0.00134818	valid_1's l1: 0.157562
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.00134818	valid_1's l1: 0.157562
+Fold 2 started at Fri Aug  9 17:03:23 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.133895	valid_1's l1: 0.186666
+[1000]	training's l1: 0.0909759	valid_1's l1: 0.170919
+[1500]	training's l1: 0.0664032	valid_1's l1: 0.1652
+[2000]	training's l1: 0.050264	valid_1's l1: 0.162212
+[2500]	training's l1: 0.038593	valid_1's l1: 0.160158
+[3000]	training's l1: 0.0299584	valid_1's l1: 0.158946
+[3500]	training's l1: 0.0232493	valid_1's l1: 0.158099
+[4000]	training's l1: 0.0182352	valid_1's l1: 0.157566
+[4500]	training's l1: 0.0143856	valid_1's l1: 0.157145
+[5000]	training's l1: 0.0113896	valid_1's l1: 0.156869
+[5500]	training's l1: 0.00903483	valid_1's l1: 0.156662
+[6000]	training's l1: 0.00718712	valid_1's l1: 0.156524
+[6500]	training's l1: 0.00576517	valid_1's l1: 0.156422
+[7000]	training's l1: 0.00463079	valid_1's l1: 0.156345
+[7500]	training's l1: 0.00374033	valid_1's l1: 0.156285
+[8000]	training's l1: 0.00300667	valid_1's l1: 0.156242
+[8500]	training's l1: 0.00244403	valid_1's l1: 0.15621
+[9000]	training's l1: 0.00198836	valid_1's l1: 0.156184
+[9500]	training's l1: 0.00161649	valid_1's l1: 0.156165
+[10000]	training's l1: 0.00131865	valid_1's l1: 0.156151
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.00131865	valid_1's l1: 0.156151
+Fold 3 started at Fri Aug  9 17:05:33 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.135598	valid_1's l1: 0.187436
+[1000]	training's l1: 0.0922489	valid_1's l1: 0.170957
+[1500]	training's l1: 0.0664634	valid_1's l1: 0.164296
+[2000]	training's l1: 0.0504965	valid_1's l1: 0.161264
+[2500]	training's l1: 0.0387372	valid_1's l1: 0.159331
+[3000]	training's l1: 0.0298584	valid_1's l1: 0.157957
+[3500]	training's l1: 0.0231927	valid_1's l1: 0.157174
+[4000]	training's l1: 0.0182409	valid_1's l1: 0.156637
+[4500]	training's l1: 0.0143729	valid_1's l1: 0.156221
+[5000]	training's l1: 0.0114101	valid_1's l1: 0.155911
+[5500]	training's l1: 0.00908328	valid_1's l1: 0.155711
+[6000]	training's l1: 0.00727468	valid_1's l1: 0.155578
+[6500]	training's l1: 0.0058259	valid_1's l1: 0.155448
+[7000]	training's l1: 0.00467017	valid_1's l1: 0.155363
+[7500]	training's l1: 0.00377758	valid_1's l1: 0.155276
+[8000]	training's l1: 0.00305779	valid_1's l1: 0.155221
+[8500]	training's l1: 0.00247219	valid_1's l1: 0.155183
+[9000]	training's l1: 0.00201266	valid_1's l1: 0.15515
+[9500]	training's l1: 0.00163776	valid_1's l1: 0.155119
+[10000]	training's l1: 0.0013398	valid_1's l1: 0.155101
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0013398	valid_1's l1: 0.155101
+Fold 4 started at Fri Aug  9 17:07:44 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.134043	valid_1's l1: 0.185698
+[1000]	training's l1: 0.091384	valid_1's l1: 0.169295
+[1500]	training's l1: 0.0665819	valid_1's l1: 0.162817
+[2000]	training's l1: 0.0502689	valid_1's l1: 0.159397
+[2500]	training's l1: 0.0384759	valid_1's l1: 0.157348
+[3000]	training's l1: 0.0298338	valid_1's l1: 0.156196
+[3500]	training's l1: 0.0232893	valid_1's l1: 0.15544
+[4000]	training's l1: 0.0182124	valid_1's l1: 0.154835
+[4500]	training's l1: 0.0143664	valid_1's l1: 0.154462
+[5000]	training's l1: 0.011368	valid_1's l1: 0.154223
+[5500]	training's l1: 0.0090176	valid_1's l1: 0.154026
+[6000]	training's l1: 0.00719649	valid_1's l1: 0.153879
+[6500]	training's l1: 0.00576238	valid_1's l1: 0.153776
+[7000]	training's l1: 0.00462896	valid_1's l1: 0.153704
+[7500]	training's l1: 0.00374034	valid_1's l1: 0.153633
+[8000]	training's l1: 0.00302345	valid_1's l1: 0.153599
+[8500]	training's l1: 0.00243476	valid_1's l1: 0.153566
+[9000]	training's l1: 0.00196817	valid_1's l1: 0.153543
+[9500]	training's l1: 0.00160555	valid_1's l1: 0.153521
+[10000]	training's l1: 0.00130576	valid_1's l1: 0.153503
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.00130576	valid_1's l1: 0.153503
+Fold 5 started at Fri Aug  9 17:09:52 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.132802	valid_1's l1: 0.18645
+[1000]	training's l1: 0.0901104	valid_1's l1: 0.17045
+[1500]	training's l1: 0.0656005	valid_1's l1: 0.164144
+[2000]	training's l1: 0.0494262	valid_1's l1: 0.160856
+[2500]	training's l1: 0.0378297	valid_1's l1: 0.159027
+[3000]	training's l1: 0.0293903	valid_1's l1: 0.157824
+[3500]	training's l1: 0.022886	valid_1's l1: 0.157032
+[4000]	training's l1: 0.0180705	valid_1's l1: 0.156557
+[4500]	training's l1: 0.0142462	valid_1's l1: 0.156157
+[5000]	training's l1: 0.0112894	valid_1's l1: 0.155856
+[5500]	training's l1: 0.00899223	valid_1's l1: 0.155635
+[6000]	training's l1: 0.0072227	valid_1's l1: 0.155496
+[6500]	training's l1: 0.00576022	valid_1's l1: 0.15539
+[7000]	training's l1: 0.00465392	valid_1's l1: 0.155312
+[7500]	training's l1: 0.00374399	valid_1's l1: 0.155243
+[8000]	training's l1: 0.00302245	valid_1's l1: 0.155196
+[8500]	training's l1: 0.00245334	valid_1's l1: 0.155162
+[9000]	training's l1: 0.00198917	valid_1's l1: 0.155127
+[9500]	training's l1: 0.00162113	valid_1's l1: 0.155106
+[10000]	training's l1: 0.00132792	valid_1's l1: 0.155087
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.00132792	valid_1's l1: 0.155087
+Fold 6 started at Fri Aug  9 17:12:02 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.133129	valid_1's l1: 0.188114
+[1000]	training's l1: 0.0900723	valid_1's l1: 0.172029
+[1500]	training's l1: 0.0658812	valid_1's l1: 0.16561
+[2000]	training's l1: 0.0497142	valid_1's l1: 0.162192
+[2500]	training's l1: 0.0380922	valid_1's l1: 0.160298
+[3000]	training's l1: 0.029472	valid_1's l1: 0.159111
+[3500]	training's l1: 0.0228716	valid_1's l1: 0.158317
+[4000]	training's l1: 0.0179755	valid_1's l1: 0.157752
+[4500]	training's l1: 0.0141809	valid_1's l1: 0.157373
+[5000]	training's l1: 0.0112461	valid_1's l1: 0.157085
+[5500]	training's l1: 0.00892824	valid_1's l1: 0.156888
+[6000]	training's l1: 0.00718217	valid_1's l1: 0.15674
+[6500]	training's l1: 0.0057574	valid_1's l1: 0.156628
+[7000]	training's l1: 0.00463013	valid_1's l1: 0.156537
+[7500]	training's l1: 0.00373537	valid_1's l1: 0.156477
+[8000]	training's l1: 0.0030213	valid_1's l1: 0.156424
+[8500]	training's l1: 0.0024542	valid_1's l1: 0.156396
+[9000]	training's l1: 0.00199647	valid_1's l1: 0.15637
+[9500]	training's l1: 0.00162458	valid_1's l1: 0.156352
+[10000]	training's l1: 0.0013303	valid_1's l1: 0.156335
+Did not meet early stopping. Best iteration is:
+[10000]	training's l1: 0.0013303	valid_1's l1: 0.156335
+Fold 7 started at Fri Aug  9 17:14:10 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.133919	valid_1's l1: 0.188816
+[1000]	training's l1: 0.090169	valid_1's l1: 0.172226
+[1500]	training's l1: 0.0650468	valid_1's l1: 0.165859
+[2000]	training's l1: 0.0489988	valid_1's l1: 0.162721
+[2500]	training's l1: 0.0375241	valid_1's l1: 0.160841
+[3000]	training's l1: 0.0292436	valid

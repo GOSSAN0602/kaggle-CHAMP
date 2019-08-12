@@ -5,7 +5,7 @@ from libs.loss_utils import logmae
 def get_estimators_dict():
     types=['1JHC', '2JHH', '1JHN', '2JHN', '2JHC', '3JHH', '3JHC', '3JHN']
     #estimators=[7000,4000,4000,4000,5000,4000,7000,4000]
-    estimators=[3000,3000,3000,3000,3000,3000,3000,3000]
+    estimators=[10000,10000,10000,10000,10000,10000,10000,10000]
     return dict(zip(types,estimators))
 
 def get_params_dict():
@@ -16,12 +16,12 @@ def get_params_dict():
               'learning_rate': 0.12,
               "boosting_type": "gbdt",
               "subsample_freq": 1,
-              "subsample": 0.8,
+              "subsample": 0.9,
               "metric": 'logmae',
               "verbosity": -1,
-              'lambda_l1': 0.8,
-              'lambda_l2': 0.2,
-              'feature_fraction': 0.6,
+              'reg_alpha': 0.0,
+              'reg_lambda': 0.0,
+              'colsample_bytree': 1.0,
              }
  
     p_2JHH = {'num_leaves': 300,
@@ -30,12 +30,12 @@ def get_params_dict():
               'learning_rate': 0.12,
               "boosting_type": "gbdt",
               "subsample_freq": 1,
-              "subsample": 0.8,
+              "subsample": 1.0,
               "metric": 'logmae',
               "verbosity": -1,
-              'lambda_l1': 0.8,
-              'lambda_l2': 0.2,
-              'feature_fraction': 0.6,
+              'reg_alpha': 0.0,
+              'reg_lambda': 0.0,
+              'colsample_bytree': 1.0,
              }
  
     p_1JHN = {'num_leaves': 300,
@@ -44,12 +44,12 @@ def get_params_dict():
               'learning_rate': 0.12,
               "boosting_type": "gbdt",
               "subsample_freq": 1,
-              "subsample": 0.8,
+              "subsample": 1.0,
               "metric": 'logmae',
               "verbosity": -1,
-              'lambda_l1': 0.8,
-              'lambda_l2': 0.2,
-              'feature_fraction': 0.6,
+              'reg_alpha': 0.0,
+              'reg_lambda': 0.0,
+              'colsample_bytree': 1.0,
              }
  
     p_2JHN = {'num_leaves': 300,
@@ -58,12 +58,12 @@ def get_params_dict():
               'learning_rate': 0.12,
               "boosting_type": "gbdt",
               "subsample_freq": 1,
-              "subsample": 0.8,
+              "subsample": 1.0,
               "metric": 'logmae',
               "verbosity": -1,
-              'lambda_l1': 0.8,
-              'lambda_l2': 0.2,
-              'feature_fraction': 0.6,
+              'reg_alpha': 0.0,
+              'reg_lambda': 0.0,
+              'colsample_bytree': 1.0,
              }
 
     p_2JHC = {'num_leaves': 400,
@@ -72,12 +72,12 @@ def get_params_dict():
               'learning_rate': 0.12,
               "boosting_type": "gbdt",
               "subsample_freq": 1,
-              "subsample": 0.8,
+              "subsample": 1.0,
               "metric": 'logmae',
               "verbosity": -1,
-              'lambda_l1': 0.8,
-              'lambda_l2': 0.2,
-              'feature_fraction': 0.6,
+              'reg_alpha': 0.1,
+              'reg_lambda': 0.0,
+              'colsample_bytree': 1.0,
              }
 
     p_3JHH = {'num_leaves': 400,
@@ -86,12 +86,11 @@ def get_params_dict():
               'learning_rate': 0.12,
               "boosting_type": "gbdt",
               "subsample_freq": 1,
-              "subsample": 0.8,
+              "subsample": 1.0,
               "metric": 'logmae',
-              "verbosity": -1,
-              'lambda_l1': 0.8,
-              'lambda_l2': 0.2,
-              'feature_fraction': 0.6,
+              'reg_alpha': 0.1,
+              'reg_lambda': 0.0,
+              'colsample_bytree': 1.0,
              }
 
     p_3JHC = {'num_leaves': 400,
@@ -100,12 +99,12 @@ def get_params_dict():
               'learning_rate': 0.12,
               "boosting_type": "gbdt",
               "subsample_freq": 1,
-              "subsample": 0.8,
+              "subsample": 1.0,
               "metric": 'logmae',
               "verbosity": -1,
-              'lambda_l1': 0.8,
-              'lambda_l2': 0.2,
-              'feature_fraction': 0.6,
+              'reg_alpha': 0.0,
+              'reg_lambda': 0.0,
+              'colsample_bytree': 1.0,
              }
 
     p_3JHN = {'num_leaves': 400,
@@ -114,12 +113,12 @@ def get_params_dict():
               'learning_rate': 0.12,
               "boosting_type": "gbdt",
               "subsample_freq": 1,
-              "subsample": 0.8,
+              "subsample": 1.0,
               "metric": 'logmae',
               "verbosity": -1,
-              'lambda_l1': 0.8,
-              'lambda_l2': 0.2,
-              'feature_fraction': 0.6,
+              'reg_alpha': 0.0,
+              'reg_lambda': 0.0,
+              'colsample_bytree': 1.0,
              }
 
     params = [p_1JHC, p_2JHH, p_1JHN, p_2JHN, p_2JHC, p_3JHH, p_3JHC, p_3JHN]

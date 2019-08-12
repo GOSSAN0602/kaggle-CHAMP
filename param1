@@ -1,0 +1,472 @@
+Script started on Fri 09 Aug 2019 06:36:42 AM UTC
+shuki_goto@tabular2:~/CHAMPS/CHAMPS$ python bin.[K/trian[K[K[K[Ka[Krain_models.py paramw[K1
+read 1JHC feature
+read 2JHC feature
+read 2JHN feature
+read 1JHN feature
+read 2JHH feature
+read 3JHC feature
+read 3JHH feature
+read 3JHN feature
+Load Train data
+Load Test data
+Encoding label features...
+Training of type 1JHC
+Fold 1 started at Fri Aug  9 06:39:15 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 1.72469	valid_1's l1: 1.83675
+[1000]	training's l1: 0.892368	valid_1's l1: 1.04066
+[1500]	training's l1: 0.619434	valid_1's l1: 0.878042
+[2000]	training's l1: 0.472116	valid_1's l1: 0.807662
+[2500]	training's l1: 0.371714	valid_1's l1: 0.767652
+[3000]	training's l1: 0.297863	valid_1's l1: 0.742157
+[3500]	training's l1: 0.241901	valid_1's l1: 0.725832
+[4000]	training's l1: 0.198269	valid_1's l1: 0.714405
+[4500]	training's l1: 0.163939	valid_1's l1: 0.706413
+[5000]	training's l1: 0.136526	valid_1's l1: 0.70038
+[5500]	training's l1: 0.114342	valid_1's l1: 0.696017
+[6000]	training's l1: 0.0960847	valid_1's l1: 0.692746
+[6500]	training's l1: 0.081297	valid_1's l1: 0.690384
+[7000]	training's l1: 0.0691721	valid_1's l1: 0.688557
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.0691721	valid_1's l1: 0.688557
+Fold 2 started at Fri Aug  9 06:46:52 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 1.73313	valid_1's l1: 1.81969
+[1000]	training's l1: 0.896637	valid_1's l1: 1.0451
+[1500]	training's l1: 0.620603	valid_1's l1: 0.876076
+[2000]	training's l1: 0.47242	valid_1's l1: 0.80573
+[2500]	training's l1: 0.374351	valid_1's l1: 0.767097
+[3000]	training's l1: 0.300586	valid_1's l1: 0.741964
+[3500]	training's l1: 0.244287	valid_1's l1: 0.72522
+[4000]	training's l1: 0.200387	valid_1's l1: 0.713534
+[4500]	training's l1: 0.16504	valid_1's l1: 0.705197
+[5000]	training's l1: 0.136852	valid_1's l1: 0.699217
+[5500]	training's l1: 0.114579	valid_1's l1: 0.694706
+[6000]	training's l1: 0.0964264	valid_1's l1: 0.691425
+[6500]	training's l1: 0.0814811	valid_1's l1: 0.689063
+[7000]	training's l1: 0.0690136	valid_1's l1: 0.687237
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.0690136	valid_1's l1: 0.687237
+Fold 3 started at Fri Aug  9 06:54:30 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 1.7304	valid_1's l1: 1.84564
+[1000]	training's l1: 0.922065	valid_1's l1: 1.06492
+[1500]	training's l1: 0.628578	valid_1's l1: 0.885312
+[2000]	training's l1: 0.476175	valid_1's l1: 0.812173
+[2500]	training's l1: 0.376246	valid_1's l1: 0.772853
+[3000]	training's l1: 0.301957	valid_1's l1: 0.747268
+[3500]	training's l1: 0.245465	valid_1's l1: 0.729875
+[4000]	training's l1: 0.201798	valid_1's l1: 0.718551
+[4500]	training's l1: 0.167161	valid_1's l1: 0.71048
+[5000]	training's l1: 0.138738	valid_1's l1: 0.70429
+[5500]	training's l1: 0.1162	valid_1's l1: 0.699858
+[6000]	training's l1: 0.0979379	valid_1's l1: 0.696597
+[6500]	training's l1: 0.0833016	valid_1's l1: 0.69406
+[7000]	training's l1: 0.0709543	valid_1's l1: 0.692289
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.0709543	valid_1's l1: 0.692289
+CV mean score: -0.3720, std: 0.0031.
+Training of type 2JHH
+Fold 1 started at Fri Aug  9 07:02:00 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.167719	valid_1's l1: 0.205639
+[1000]	training's l1: 0.118186	valid_1's l1: 0.177084
+[1500]	training's l1: 0.0926857	valid_1's l1: 0.166374
+[2000]	training's l1: 0.0751649	valid_1's l1: 0.160489
+[2500]	training's l1: 0.0621934	valid_1's l1: 0.156634
+[3000]	training's l1: 0.0522738	valid_1's l1: 0.154195
+[3500]	training's l1: 0.0442806	valid_1's l1: 0.152564
+[4000]	training's l1: 0.0378752	valid_1's l1: 0.151298
+[4500]	training's l1: 0.0326099	valid_1's l1: 0.150447
+[5000]	training's l1: 0.0283679	valid_1's l1: 0.149801
+[5500]	training's l1: 0.0248215	valid_1's l1: 0.1493
+[6000]	training's l1: 0.0218761	valid_1's l1: 0.148924
+[6500]	training's l1: 0.019462	valid_1's l1: 0.148628
+[7000]	training's l1: 0.0173853	valid_1's l1: 0.148377
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.0173853	valid_1's l1: 0.148377
+Fold 2 started at Fri Aug  9 07:04:47 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.167675	valid_1's l1: 0.206396
+[1000]	training's l1: 0.116933	valid_1's l1: 0.177263
+[1500]	training's l1: 0.0912703	valid_1's l1: 0.166461
+[2000]	training's l1: 0.0739718	valid_1's l1: 0.160539
+[2500]	training's l1: 0.0612053	valid_1's l1: 0.156937
+[3000]	training's l1: 0.0513441	valid_1's l1: 0.154517
+[3500]	training's l1: 0.0434025	valid_1's l1: 0.152806
+[4000]	training's l1: 0.0370393	valid_1's l1: 0.151563
+[4500]	training's l1: 0.0318964	valid_1's l1: 0.15064
+[5000]	training's l1: 0.027391	valid_1's l1: 0.149921
+[5500]	training's l1: 0.0236682	valid_1's l1: 0.149406
+[6000]	training's l1: 0.0205009	valid_1's l1: 0.148973
+[6500]	training's l1: 0.0179092	valid_1's l1: 0.148683
+[7000]	training's l1: 0.0156553	valid_1's l1: 0.148428
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.0156553	valid_1's l1: 0.148428
+Fold 3 started at Fri Aug  9 07:07:35 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.16824	valid_1's l1: 0.207082
+[1000]	training's l1: 0.116973	valid_1's l1: 0.177421
+[1500]	training's l1: 0.0911709	valid_1's l1: 0.166458
+[2000]	training's l1: 0.0742615	valid_1's l1: 0.160863
+[2500]	training's l1: 0.0616488	valid_1's l1: 0.157185
+[3000]	training's l1: 0.0518756	valid_1's l1: 0.154808
+[3500]	training's l1: 0.0440351	valid_1's l1: 0.153028
+[4000]	training's l1: 0.0376909	valid_1's l1: 0.151738
+[4500]	training's l1: 0.0322949	valid_1's l1: 0.150832
+[5000]	training's l1: 0.0280336	valid_1's l1: 0.150226
+[5500]	training's l1: 0.0245467	valid_1's l1: 0.149717
+[6000]	training's l1: 0.0215519	valid_1's l1: 0.149303
+[6500]	training's l1: 0.0191921	valid_1's l1: 0.149001
+[7000]	training's l1: 0.0171215	valid_1's l1: 0.148747
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.0171215	valid_1's l1: 0.148747
+CV mean score: -1.9071, std: 0.0011.
+Training of type 1JHN
+Fold 1 started at Fri Aug  9 07:10:25 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.240977	valid_1's l1: 0.514049
+[1000]	training's l1: 0.10048	valid_1's l1: 0.482228
+[1500]	training's l1: 0.047491	valid_1's l1: 0.475557
+[2000]	training's l1: 0.0247822	valid_1's l1: 0.473672
+[2500]	training's l1: 0.0149943	valid_1's l1: 0.472959
+[3000]	training's l1: 0.00662912	valid_1's l1: 0.472527
+[3500]	training's l1: 0.00324193	valid_1's l1: 0.472362
+[4000]	training's l1: 0.00208692	valid_1's l1: 0.472319
+Early stopping, best iteration is:
+[4051]	training's l1: 0.00202175	valid_1's l1: 0.472316
+Fold 2 started at Fri Aug  9 07:10:55 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.244868	valid_1's l1: 0.515013
+[1000]	training's l1: 0.0998887	valid_1's l1: 0.478291
+[1500]	training's l1: 0.0512425	valid_1's l1: 0.471463
+[2000]	training's l1: 0.0297953	valid_1's l1: 0.469252
+[2500]	training's l1: 0.0142174	valid_1's l1: 0.468153
+[3000]	training's l1: 0.00657679	valid_1's l1: 0.467736
+[3500]	training's l1: 0.00326431	valid_1's l1: 0.467574
+[4000]	training's l1: 0.00206642	valid_1's l1: 0.467522
+Early stopping, best iteration is:
+[4023]	training's l1: 0.00204436	valid_1's l1: 0.46752
+Fold 3 started at Fri Aug  9 07:11:24 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.238652	valid_1's l1: 0.517815
+[1000]	training's l1: 0.0972248	valid_1's l1: 0.483326
+[1500]	training's l1: 0.0499877	valid_1's l1: 0.477466
+[2000]	training's l1: 0.0236459	valid_1's l1: 0.474962
+[2500]	training's l1: 0.0102937	valid_1's l1: 0.474065
+[3000]	training's l1: 0.00458533	valid_1's l1: 0.473703
+[3500]	training's l1: 0.00250985	valid_1's l1: 0.473572
+Early stopping, best iteration is:
+[3761]	training's l1: 0.00205527	valid_1's l1: 0.473549
+CV mean score: -0.7526, std: 0.0055.
+Training of type 2JHN
+Fold 1 started at Fri Aug  9 07:11:57 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.174456	valid_1's l1: 0.275483
+[1000]	training's l1: 0.102761	valid_1's l1: 0.25037
+[1500]	training's l1: 0.0674931	valid_1's l1: 0.243554
+[2000]	training's l1: 0.0446235	valid_1's l1: 0.240118
+[2500]	training's l1: 0.0303614	valid_1's l1: 0.238513
+[3000]	training's l1: 0.0206449	valid_1's l1: 0.237618
+[3500]	training's l1: 0.0139655	valid_1's l1: 0.237088
+[4000]	training's l1: 0.00946579	valid_1's l1: 0.236754
+[4500]	training's l1: 0.00654944	valid_1's l1: 0.236568
+[5000]	training's l1: 0.00465041	valid_1's l1: 0.236466
+[5500]	training's l1: 0.003445	valid_1's l1: 0.236394
+[6000]	training's l1: 0.00264587	valid_1's l1: 0.236346
+[6500]	training's l1: 0.00210664	valid_1's l1: 0.236317
+[7000]	training's l1: 0.00174359	valid_1's l1: 0.236301
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.00174359	valid_1's l1: 0.236301
+Fold 2 started at Fri Aug  9 07:13:27 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.173288	valid_1's l1: 0.271964
+[1000]	training's l1: 0.102964	valid_1's l1: 0.24857
+[1500]	training's l1: 0.0673679	valid_1's l1: 0.24151
+[2000]	training's l1: 0.0460872	valid_1's l1: 0.23853
+[2500]	training's l1: 0.0322107	valid_1's l1: 0.23694
+[3000]	training's l1: 0.0224742	valid_1's l1: 0.236043
+[3500]	training's l1: 0.0157018	valid_1's l1: 0.235505
+[4000]	training's l1: 0.0106083	valid_1's l1: 0.235115
+[4500]	training's l1: 0.00728184	valid_1's l1: 0.234893
+[5000]	training's l1: 0.00512184	valid_1's l1: 0.234771
+[5500]	training's l1: 0.00374013	valid_1's l1: 0.234689
+[6000]	training's l1: 0.0028396	valid_1's l1: 0.234636
+[6500]	training's l1: 0.00224037	valid_1's l1: 0.234605
+[7000]	training's l1: 0.00183558	valid_1's l1: 0.234583
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.00183558	valid_1's l1: 0.234583
+Fold 3 started at Fri Aug  9 07:14:56 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.169978	valid_1's l1: 0.270576
+[1000]	training's l1: 0.0996187	valid_1's l1: 0.248383
+[1500]	training's l1: 0.0644761	valid_1's l1: 0.241918
+[2000]	training's l1: 0.0435477	valid_1's l1: 0.239013
+[2500]	training's l1: 0.0301473	valid_1's l1: 0.237544
+[3000]	training's l1: 0.0211511	valid_1's l1: 0.236717
+[3500]	training's l1: 0.0140788	valid_1's l1: 0.236135
+[4000]	training's l1: 0.00954844	valid_1's l1: 0.235782
+[4500]	training's l1: 0.00665008	valid_1's l1: 0.235601
+[5000]	training's l1: 0.00472974	valid_1's l1: 0.235457
+[5500]	training's l1: 0.00349336	valid_1's l1: 0.235388
+[6000]	training's l1: 0.00268234	valid_1's l1: 0.235341
+[6500]	training's l1: 0.00212583	valid_1's l1: 0.235311
+[7000]	training's l1: 0.00176163	valid_1's l1: 0.235293
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.00176163	valid_1's l1: 0.235293
+CV mean score: -1.4465, std: 0.0030.
+Training of type 2JHC
+Fold 1 started at Fri Aug  9 07:16:48 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.512285	valid_1's l1: 0.543699
+[1000]	training's l1: 0.361461	valid_1's l1: 0.425863
+[1500]	training's l1: 0.294846	valid_1's l1: 0.382121
+[2000]	training's l1: 0.250356	valid_1's l1: 0.356893
+[2500]	training's l1: 0.220205	valid_1's l1: 0.342082
+[3000]	training's l1: 0.194701	valid_1's l1: 0.330697
+[3500]	training's l1: 0.174441	valid_1's l1: 0.322756
+[4000]	training's l1: 0.157367	valid_1's l1: 0.31644
+[4500]	training's l1: 0.142429	valid_1's l1: 0.311425
+[5000]	training's l1: 0.129969	valid_1's l1: 0.307565
+[5500]	training's l1: 0.118797	valid_1's l1: 0.304314
+[6000]	training's l1: 0.10896	valid_1's l1: 0.301737
+[6500]	training's l1: 0.100183	valid_1's l1: 0.299559
+[7000]	training's l1: 0.0922285	valid_1's l1: 0.297635
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.0922285	valid_1's l1: 0.297635
+Fold 2 started at Fri Aug  9 07:25:32 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.512553	valid_1's l1: 0.545031
+[1000]	training's l1: 0.362954	valid_1's l1: 0.427535
+[1500]	training's l1: 0.294911	valid_1's l1: 0.382974
+[2000]	training's l1: 0.251294	valid_1's l1: 0.358761
+[2500]	training's l1: 0.21926	valid_1's l1: 0.342832
+[3000]	training's l1: 0.194369	valid_1's l1: 0.332126
+[3500]	training's l1: 0.173494	valid_1's l1: 0.323879
+[4000]	training's l1: 0.15653	valid_1's l1: 0.317854
+[4500]	training's l1: 0.141996	valid_1's l1: 0.313041
+[5000]	training's l1: 0.129078	valid_1's l1: 0.308907
+[5500]	training's l1: 0.117947	valid_1's l1: 0.305854
+[6000]	training's l1: 0.108028	valid_1's l1: 0.303102
+[6500]	training's l1: 0.0990361	valid_1's l1: 0.300863
+[7000]	training's l1: 0.0912206	valid_1's l1: 0.299032
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.0912206	valid_1's l1: 0.299032
+Fold 3 started at Fri Aug  9 07:34:28 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.512616	valid_1's l1: 0.544115
+[1000]	training's l1: 0.360803	valid_1's l1: 0.42502
+[1500]	training's l1: 0.293308	valid_1's l1: 0.381045
+[2000]	training's l1: 0.249755	valid_1's l1: 0.356466
+[2500]	training's l1: 0.218435	valid_1's l1: 0.341441
+[3000]	training's l1: 0.193434	valid_1's l1: 0.330842
+[3500]	training's l1: 0.173048	valid_1's l1: 0.322749
+[4000]	training's l1: 0.156209	valid_1's l1: 0.316928
+[4500]	training's l1: 0.141679	valid_1's l1: 0.312302
+[5000]	training's l1: 0.128735	valid_1's l1: 0.308452
+[5500]	training's l1: 0.117737	valid_1's l1: 0.30532
+[6000]	training's l1: 0.108013	valid_1's l1: 0.302698
+[6500]	training's l1: 0.0988894	valid_1's l1: 0.300357
+[7000]	training's l1: 0.0910751	valid_1's l1: 0.298557
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.0910751	valid_1's l1: 0.298557
+CV mean score: -1.2093, std: 0.0019.
+Training of type 3JHH
+Fold 1 started at Fri Aug  9 07:43:28 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.194518	valid_1's l1: 0.241209
+[1000]	training's l1: 0.137008	valid_1's l1: 0.211121
+[1500]	training's l1: 0.105894	valid_1's l1: 0.199197
+[2000]	training's l1: 0.0843005	valid_1's l1: 0.19273
+[2500]	training's l1: 0.0689497	valid_1's l1: 0.188804
+[3000]	training's l1: 0.0566857	valid_1's l1: 0.185996
+[3500]	training's l1: 0.0471128	valid_1's l1: 0.184055
+[4000]	training's l1: 0.0392531	valid_1's l1: 0.182737
+[4500]	training's l1: 0.0330157	valid_1's l1: 0.181716
+[5000]	training's l1: 0.0278026	valid_1's l1: 0.180922
+[5500]	training's l1: 0.0235394	valid_1's l1: 0.180334
+[6000]	training's l1: 0.0199078	valid_1's l1: 0.179855
+[6500]	training's l1: 0.0169322	valid_1's l1: 0.179485
+[7000]	training's l1: 0.0143938	valid_1's l1: 0.179201
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.0143938	valid_1's l1: 0.179201
+Fold 2 started at Fri Aug  9 07:48:31 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.193858	valid_1's l1: 0.243371
+[1000]	training's l1: 0.1354	valid_1's l1: 0.212507
+[1500]	training's l1: 0.104123	valid_1's l1: 0.200834
+[2000]	training's l1: 0.0837221	valid_1's l1: 0.19445
+[2500]	training's l1: 0.0678543	valid_1's l1: 0.190198
+[3000]	training's l1: 0.0560602	valid_1's l1: 0.187487
+[3500]	training's l1: 0.0464935	valid_1's l1: 0.185599
+[4000]	training's l1: 0.038911	valid_1's l1: 0.184261
+[4500]	training's l1: 0.0328264	valid_1's l1: 0.183242
+[5000]	training's l1: 0.0276176	valid_1's l1: 0.182458
+[5500]	training's l1: 0.0233274	valid_1's l1: 0.181876
+[6000]	training's l1: 0.019701	valid_1's l1: 0.181396
+[6500]	training's l1: 0.016747	valid_1's l1: 0.181029
+[7000]	training's l1: 0.0142428	valid_1's l1: 0.180737
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.0142428	valid_1's l1: 0.180737
+Fold 3 started at Fri Aug  9 07:53:55 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.193137	valid_1's l1: 0.241812
+[1000]	training's l1: 0.137104	valid_1's l1: 0.212862
+[1500]	training's l1: 0.105204	valid_1's l1: 0.20056
+[2000]	training's l1: 0.0839672	valid_1's l1: 0.194091
+[2500]	training's l1: 0.0681048	valid_1's l1: 0.189954
+[3000]	training's l1: 0.0561576	valid_1's l1: 0.187357
+[3500]	training's l1: 0.0466381	valid_1's l1: 0.185562
+[4000]	training's l1: 0.0390594	valid_1's l1: 0.184212
+[4500]	training's l1: 0.0328431	valid_1's l1: 0.18325
+[5000]	training's l1: 0.0275411	valid_1's l1: 0.182473
+[5500]	training's l1: 0.0233587	valid_1's l1: 0.181911
+[6000]	training's l1: 0.0197651	valid_1's l1: 0.181432
+[6500]	training's l1: 0.0167893	valid_1's l1: 0.181088
+[7000]	training's l1: 0.0142781	valid_1's l1: 0.180789
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.0142781	valid_1's l1: 0.180789
+CV mean score: -1.7135, std: 0.0041.
+Training of type 3JHC
+Fold 1 started at Fri Aug  9 07:59:47 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.538347	valid_1's l1: 0.562451
+[1000]	training's l1: 0.442011	valid_1's l1: 0.481925
+[1500]	training's l1: 0.384662	valid_1's l1: 0.438537
+[2000]	training's l1: 0.345795	valid_1's l1: 0.41213
+[2500]	training's l1: 0.316162	valid_1's l1: 0.393417
+[3000]	training's l1: 0.291697	valid_1's l1: 0.378963
+[3500]	training's l1: 0.271853	valid_1's l1: 0.368409
+[4000]	training's l1: 0.25501	valid_1's l1: 0.360008
+[4500]	training's l1: 0.239515	valid_1's l1: 0.352736
+[5000]	training's l1: 0.225781	valid_1's l1: 0.346519
+[5500]	training's l1: 0.213584	valid_1's l1: 0.341169
+[6000]	training's l1: 0.202413	valid_1's l1: 0.336604
+[6500]	training's l1: 0.192517	valid_1's l1: 0.332938
+[7000]	training's l1: 0.183046	valid_1's l1: 0.329395
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.183046	valid_1's l1: 0.329395
+Fold 2 started at Fri Aug  9 08:09:20 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.536764	valid_1's l1: 0.560388
+[1000]	training's l1: 0.439936	valid_1's l1: 0.479825
+[1500]	training's l1: 0.384822	valid_1's l1: 0.438169
+[2000]	training's l1: 0.345355	valid_1's l1: 0.410936
+[2500]	training's l1: 0.315524	valid_1's l1: 0.392108
+[3000]	training's l1: 0.291657	valid_1's l1: 0.378004
+[3500]	training's l1: 0.271566	valid_1's l1: 0.367059
+[4000]	training's l1: 0.253969	valid_1's l1: 0.358072
+[4500]	training's l1: 0.238514	valid_1's l1: 0.350542
+[5000]	training's l1: 0.225355	valid_1's l1: 0.344743
+[5500]	training's l1: 0.213108	valid_1's l1: 0.339534
+[6000]	training's l1: 0.202128	valid_1's l1: 0.334999
+[6500]	training's l1: 0.191967	valid_1's l1: 0.331002
+[7000]	training's l1: 0.182773	valid_1's l1: 0.327624
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.182773	valid_1's l1: 0.327624
+Fold 3 started at Fri Aug  9 08:18:56 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.54031	valid_1's l1: 0.562392
+[1000]	training's l1: 0.441687	valid_1's l1: 0.480146
+[1500]	training's l1: 0.386938	valid_1's l1: 0.43937
+[2000]	training's l1: 0.347568	valid_1's l1: 0.412593
+[2500]	training's l1: 0.317765	valid_1's l1: 0.393874
+[3000]	training's l1: 0.292894	valid_1's l1: 0.379065
+[3500]	training's l1: 0.272211	valid_1's l1: 0.36752
+[4000]	training's l1: 0.255038	valid_1's l1: 0.358712
+[4500]	training's l1: 0.239442	valid_1's l1: 0.351161
+[5000]	training's l1: 0.225895	valid_1's l1: 0.345051
+[5500]	training's l1: 0.213704	valid_1's l1: 0.339853
+[6000]	training's l1: 0.202567	valid_1's l1: 0.33532
+[6500]	training's l1: 0.192708	valid_1's l1: 0.331468
+[7000]	training's l1: 0.183654	valid_1's l1: 0.328085
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.183654	valid_1's l1: 0.328085
+CV mean score: -1.1136, std: 0.0023.
+Training of type 3JHN
+Fold 1 started at Fri Aug  9 08:28:25 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.127287	valid_1's l1: 0.193934
+[1000]	training's l1: 0.0817145	valid_1's l1: 0.17968
+[1500]	training's l1: 0.0563512	valid_1's l1: 0.174556
+[2000]	training's l1: 0.0398777	valid_1's l1: 0.171931
+[2500]	training's l1: 0.0284006	valid_1's l1: 0.170502
+[3000]	training's l1: 0.0205155	valid_1's l1: 0.169624
+[3500]	training's l1: 0.0148729	valid_1's l1: 0.169091
+[4000]	training's l1: 0.010824	valid_1's l1: 0.168718
+[4500]	training's l1: 0.0081061	valid_1's l1: 0.168487
+[5000]	training's l1: 0.00613294	valid_1's l1: 0.168326
+[5500]	training's l1: 0.00473236	valid_1's l1: 0.168216
+[6000]	training's l1: 0.00372384	valid_1's l1: 0.16814
+[6500]	training's l1: 0.00299015	valid_1's l1: 0.168088
+[7000]	training's l1: 0.00245813	valid_1's l1: 0.168047
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.00245813	valid_1's l1: 0.168047
+Fold 2 started at Fri Aug  9 08:30:16 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.127564	valid_1's l1: 0.190993
+[1000]	training's l1: 0.0819322	valid_1's l1: 0.176756
+[1500]	training's l1: 0.056354	valid_1's l1: 0.171503
+[2000]	training's l1: 0.0397839	valid_1's l1: 0.168874
+[2500]	training's l1: 0.028586	valid_1's l1: 0.167423
+[3000]	training's l1: 0.0205776	valid_1's l1: 0.166525
+[3500]	training's l1: 0.0148395	valid_1's l1: 0.165918
+[4000]	training's l1: 0.0109286	valid_1's l1: 0.16556
+[4500]	training's l1: 0.00810709	valid_1's l1: 0.165307
+[5000]	training's l1: 0.00613706	valid_1's l1: 0.165163
+[5500]	training's l1: 0.00473176	valid_1's l1: 0.165059
+[6000]	training's l1: 0.00371186	valid_1's l1: 0.164984
+[6500]	training's l1: 0.00298635	valid_1's l1: 0.164931
+[7000]	training's l1: 0.00245731	valid_1's l1: 0.164894
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.00245731	valid_1's l1: 0.164894
+Fold 3 started at Fri Aug  9 08:32:05 2019
+Training until validation scores don't improve for 200 rounds.
+[500]	training's l1: 0.126388	valid_1's l1: 0.192468
+[1000]	training's l1: 0.0809359	valid_1's l1: 0.177989
+[1500]	training's l1: 0.0552635	valid_1's l1: 0.172772
+[2000]	training's l1: 0.0389179	valid_1's l1: 0.170194
+[2500]	training's l1: 0.0278335	valid_1's l1: 0.168878
+[3000]	training's l1: 0.0201508	valid_1's l1: 0.168093
+[3500]	training's l1: 0.0145806	valid_1's l1: 0.167565
+[4000]	training's l1: 0.0107122	valid_1's l1: 0.167259
+[4500]	training's l1: 0.00797524	valid_1's l1: 0.167046
+[5000]	training's l1: 0.00603759	valid_1's l1: 0.16687
+[5500]	training's l1: 0.00464306	valid_1's l1: 0.166761
+[6000]	training's l1: 0.00366406	valid_1's l1: 0.166681
+[6500]	training's l1: 0.00295573	valid_1's l1: 0.166638
+[7000]	training's l1: 0.00243923	valid_1's l1: 0.166605
+Did not meet early stopping. Best iteration is:
+[7000]	training's l1: 0.00243923	valid_1's l1: 0.166605
+CV mean score: -1.7927, std: 0.0077.
+shuki_goto@tabular2:~/CHAMPS/CHAMPS$ ls
+[0m[01;34mbin[0m  [01;34mlibs[0m  [01;34mlog[0m  param1
+shuki_goto@tabular2:~/CHAMPS/CHAMPS$ cd ./log/param1/
+shuki_goto@tabular2:~/CHAMPS/CHAMPS/log/param1$ ls
+[0m[01;35m1JHC_feaature_imp_.png[0m      2JHCfeature_importance.csv  [01;35m2JHN.png[0m                    [01;35m3JHN_feaature_imp_.png[0m
+1JHCfeature_importance.csv  [01;35m2JHC.png[0m                    [01;35m3JHC_feaature_imp_.png[0m      3JHNfeature_importance.csv
+[01;35m1JHC.png[0m                    [01;35m2JHH_feaature_imp_.png[0m      3JHCfeature_importance.csv  [01;35m3JHN.png[0m
+[01;35m1JHN_feaature_imp_.png[0m      2JHHfeature_importance.csv  [01;35m3JHC.png[0m                    n_estimators.txt
+1JHNfeature_importance.csv  [01;35m2JHH.png[0m                    [01;35m3JHH_feaature_imp_.png[0m      param.txt
+[01;35m1JHN.png[0m                    [01;35m2JHN_feaature_imp_.png[0m      3JHHfeature_importance.csv  submission.csv
+[01;35m2JHC_feaature_imp_.png[0m      2JHNfeature_importance.csv  [01;35m3JHH.png[0m
+shuki_goto@tabular2:~/CHAMPS/CHAMPS/log/param1$  \\\[K[K[K[Kkaggle competitions submit -c champs-scalar-coupling -f submission.csv -m " Message"[1P"[1P"[1P"[1P"[1P"[1P"[1P"p"a"r"a"m"2"[1P"1"
+  0%|                                                                                          | 0.00/64.0M [00:00<?, ?B/s]  2%|█▊                                                                               | 1.44M/64.0M [00:01<00:46, 1.42MB/s] 25%|████████████████████▎                                                            | 16.0M/64.0M [00:01<00:24, 2.01MB/s] 39%|███████████████████████████████▋                                                 | 25.0M/64.0M [00:01<00:14, 2.85MB/s] 56%|█████████████████████████████████████████████▌                                   | 36.0M/64.0M [00:01<00:07, 4.03MB/s] 75%|████████████████████████████████████████████████████████████▊                    | 48.1M/64.0M [00:01<00:02, 5.67MB/s] 91%|█████████████████████████████████████████████████████████████████████████▋       | 58.3M/64.0M [00:01<00:00, 7.93MB/s]100%|█████████████████████████████████████████████████████████████████████████████████| 64.0M/64.0M [00:03<00:00, 21.2MB/s]
+Successfully submitted to Predicting Molecular Propertiesshuki_goto@tabular2:~/CHAMPS/CHAMPS/log/param1$ ls
+[0m[01;35m1JHC_feaature_imp_.png[0m      2JHCfeature_importance.csv  [01;35m2JHN.png[0m                    [01;35m3JHN_feaature_imp_.png[0m
+1JHCfeature_importance.csv  [01;35m2JHC.png[0m                    [01;35m3JHC_feaature_imp_.png[0m      3JHNfeature_importance.csv
+[01;35m1JHC.png[0m                    [01;35m2JHH_feaature_imp_.png[0m      3JHCfeature_importance.csv  [01;35m3JHN.png[0m
+[01;35m1JHN_feaature_imp_.png[0m      2JHHfeature_importance.csv  [01;35m3JHC.png[0m                    n_estimators.txt
+1JHNfeature_importance.csv  [01;35m2JHH.png[0m                    [01;35m3JHH_feaature_imp_.png[0m      param.txt
+[01;35m1JHN.png[0m                    [01;35m2JHN_feaature_imp_.png[0m      3JHHfeature_importance.csv  submission.csv
+[01;35m2JHC_feaature_imp_.png[0m      2JHNfeature_importance.csv  [01;35m3JHH.png[0m
+shuki_goto@tabular2:~/CHAMPS/CHAMPS/log/param1$ cd ../
+shuki_goto@tabular2:~/CHAMPS/CHAMPS/log$ ls
+[0m[01;31m4th_try.zip[0m  [01;34m7th_try[0m        [01;34mfeature_cut03[0m    [01;34mfeature_search[0m   [01;34mfeature_search4[0m     [01;34mparam1[0m          [01;31mthird_try.zip[0m
+[01;31m5th_try.zip[0m  [01;34m8th_try[0m        [01;34mfeature_cut05[0m    [01;34mfeature_search2[0m  [01;34mfeature_search5[0m     [01;34mparma1[0m
+[01;31m6th_try.zip[0m  [01;34mfeature_cut01[0m  [01;34mfeature_cut2_01[0m  [01;34mfeature_search3[0m  [01;31mfeature_search.zip[0m  [01;31msecond_try.zip[0m
+shuki_goto@tabular2:~/CHAMPS/CHAMPS/log$ vim get[K[K[Kparam1/[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+
+Script done on Fri 09 Aug 2019 10:08:27 AM UTC
