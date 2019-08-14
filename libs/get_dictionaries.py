@@ -10,13 +10,13 @@ def get_estimators_dict():
 
 def get_params_dict():
     types=['1JHC', '2JHH', '1JHN', '2JHN', '2JHC', '3JHH', '3JHC', '3JHN']
-    p_1JHC = {'num_leaves': 500,
+    p_1JHC = {'num_leaves': 200,
               'objective': 'huber',
-              'max_depth': 9,
+              'max_depth': 7,
               'learning_rate': 0.12,
               "boosting_type": "gbdt",
               "subsample_freq": 1,
-              "subsample": 0.9,
+              "subsample": 1.0,
               "metric": 'logmae',
               "verbosity": -1,
               'reg_alpha': 0.0,
@@ -38,9 +38,9 @@ def get_params_dict():
               'colsample_bytree': 1.0,
              }
  
-    p_1JHN = {'num_leaves': 300,
+    p_1JHN = {'num_leaves': 200,
               'objective': 'huber',
-              'max_depth': 7,
+              'max_depth': 6,
               'learning_rate': 0.12,
               "boosting_type": "gbdt",
               "subsample_freq": 1,
@@ -93,9 +93,9 @@ def get_params_dict():
               'colsample_bytree': 1.0,
              }
 
-    p_3JHC = {'num_leaves': 400,
+    p_3JHC = {'num_leaves': 450,
               'objective': 'huber',
-              'max_depth': 7,
+              'max_depth': 8,
               'learning_rate': 0.12,
               "boosting_type": "gbdt",
               "subsample_freq": 1,
