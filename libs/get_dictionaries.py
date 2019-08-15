@@ -12,7 +12,7 @@ def get_params_dict():
     types=['1JHC', '2JHH', '1JHN', '2JHN', '2JHC', '3JHH', '3JHC', '3JHN']
     p_1JHC = {'num_leaves': 400,
               'objective': 'huber',
-              'max_depth': 10,
+              'max_depth': 12,
               'learning_rate': 0.12,
               "boosting_type": "gbdt",
               "subsample_freq": 1,
@@ -26,7 +26,7 @@ def get_params_dict():
  
     p_2JHH = {'num_leaves': 400,
               'objective': 'huber',
-              'max_depth': 9,
+              'max_depth': 12,
               'learning_rate': 0.12,
               "boosting_type": "gbdt",
               "subsample_freq": 1,
@@ -40,7 +40,7 @@ def get_params_dict():
  
     p_1JHN = {'num_leaves': 200,
               'objective': 'huber',
-              'max_depth': 4,
+              'max_depth': 12,
               'learning_rate': 0.12,
               "boosting_type": "gbdt",
               "subsample_freq": 1,
@@ -54,7 +54,7 @@ def get_params_dict():
  
     p_2JHN = {'num_leaves': 400,
               'objective': 'huber',
-              'max_depth': 500,
+              'max_depth': 12,
               'learning_rate': 0.12,
               "boosting_type": "gbdt",
               "subsample_freq": 1,
@@ -68,7 +68,7 @@ def get_params_dict():
 
     p_2JHC = {'num_leaves': 500,
               'objective': 'huber',
-              'max_depth': 10,
+              'max_depth': 12,
               'learning_rate': 0.12,
               "boosting_type": "gbdt",
               "subsample_freq": 1,
@@ -82,7 +82,7 @@ def get_params_dict():
 
     p_3JHH = {'num_leaves': 450,
               'objective': 'huber',
-              'max_depth': 9,
+              'max_depth': 12,
               'learning_rate': 0.12,
               "boosting_type": "gbdt",
               "subsample_freq": 1,
@@ -95,7 +95,7 @@ def get_params_dict():
 
     p_3JHC = {'num_leaves': 500,
               'objective': 'huber',
-              'max_depth': 10,
+              'max_depth': 12,
               'learning_rate': 0.12,
               "boosting_type": "gbdt",
               "subsample_freq": 1,
@@ -109,7 +109,7 @@ def get_params_dict():
 
     p_3JHN = {'num_leaves': 500,
               'objective': 'huber',
-              'max_depth': 7,
+              'max_depth': 12,
               'learning_rate': 0.12,
               "boosting_type": "gbdt",
               "subsample_freq": 1,
