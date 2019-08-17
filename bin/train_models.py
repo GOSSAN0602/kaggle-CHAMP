@@ -68,7 +68,7 @@ for f in label_columns:
         test[f] = lbl.transform(list(test[f].values))
 train = train.drop(['id','molecule_name'],axis=1)
 test = test.drop(['id','molecule_name'],axis=1)
-n_fold = 8
+n_fold = 14
 folds = KFold(n_splits=n_fold, shuffle=True, random_state=11)
 
 param_dict = get_params_dict()
