@@ -7,7 +7,7 @@ sys.path.append('./')
 import subprocess
 
 from libs.andrew_utils import *
-from libs.feature_utils import get_columns, get_feature_columns
+from libs.feature_utils import get_columns, get_feature_columns, get_feature_columns_each
 from libs.get_dictionaries import *
 
 import matplotlib.pyplot as plt
@@ -40,7 +40,8 @@ args = parser.parse_args()
 
 os.mkdir('log/'+args.tag)
 
-feature_columns = get_feature_columns(0.2)
+#feature_columns = get_feature_columns(1.0)
+feature_columns = get_feature_columns_each()
 #cmd = "script ./log/"+args.tag+"/loss.log"
 #subprocess.call(cmd.split())
 
@@ -50,6 +51,12 @@ train = pd.read_hdf(file_folder+'/ultimate_train.h5', 'df', engine='python')
 print('Load Test data')
 test = pd.read_hdf(file_folder+'/ultimate_test.h5', 'df', engine='python')
 sub = pd.read_csv('../input/champsdata/sample_submission.csv')
+
+# Split 1JHC
+#train=train.loc[train['type']=='1JHC']
+#test=test.loc[test['type']=='1JHC']
+#train['type'].where((train['type']=='1JHC')&(train['dist']>1.065),'1JHC_UPPER',inplace=True)
+#test['type'].where((test['type']=='1JHC')&(test['dist']>1.065),'1JHC_UPPER',inplace=True)
 
 
 y = train['scalar_coupling_constant']
@@ -70,6 +77,7 @@ train = train.drop(['id','molecule_name'],axis=1)
 test = test.drop(['id','molecule_name'],axis=1)
 n_fold = 14
 folds = KFold(n_splits=n_fold, shuffle=True, random_state=11)
+
 
 param_dict = get_params_dict()
 n_estimators_dict = get_estimators_dict()
