@@ -18,7 +18,7 @@ def get_feature_columns_each():
 
     log_path = 'log/feature_search2/'
     ctype_list = ['1JHC','2JHC','2JHN','1JHN','2JHH','3JHC','3JHH','3JHN']
-    cut_rate_list = [0.07,0.07,0.5,0.5,0.09,0.07,0.1,0.5]
+    cut_rate_list = [0.08, 0.07, 0.5, 0.3, 0.1, 0.08, 0.1, 0.3]
     f_list_1 = []
     f_list_2 = []
 

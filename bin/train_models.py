@@ -76,7 +76,7 @@ for f in label_columns:
 train = train.drop(['id','molecule_name'],axis=1)
 test = test.drop(['id','molecule_name'],axis=1)
 n_fold = 14
-folds = KFold(n_splits=n_fold, shuffle=True, random_state=11)
+folds = KFold(n_splits=n_fold, shuffle=True, random_state=53)
 
 
 param_dict = get_params_dict()
